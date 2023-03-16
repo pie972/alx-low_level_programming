@@ -1,14 +1,13 @@
 # Concepts
 --------------------------------------------------------------------------
-* [C programming] (https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2022/4/e0ccf91eec6b977a9e00ed384dc285df9c2772e3.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230316%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230316T125109Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c1648b8cac27fdec220597003f9e08f15fa1999b75752ae51f729900ff856db8)
+[C programming](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2022/4/e0ccf91eec6b977a9e00ed384dc285df9c2772e3.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230316%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230316T125109Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c1648b8cac27fdec220597003f9e08f15fa1999b75752ae51f729900ff856db8)
 <br /><br />
 
 
 # Resources
 --------------------------------------------------------------------------
 ## Read or watch:
-[Everything you need to know to start with C.pdf] (https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2022/4/e0ccf91eec6b977a9e00ed384dc285df9c2772e3.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230316%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230316T125142Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=bec1afc3c57df4fa0111d4a5b9a5e3766a6a0b841d84a3c00bd78b0d6da9b6fc) <br />
-
+[Everything you need to know to start with C.pdf](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2022/4/e0ccf91eec6b977a9e00ed384dc285df9c2772e3.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230316%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230316T125142Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=bec1afc3c57df4fa0111d4a5b9a5e3766a6a0b841d84a3c00bd78b0d6da9b6fc) <br />
 [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie) <br />
 [“C” Programming Language: Brian Kernighan](https://www.youtube.com/watch?v=de2Hsvxaf8M) <br />
 [Why C Programming Is Awesome](https://www.youtube.com/watch?v=smGalmxPVYc) <br />
