@@ -1,3 +1,4 @@
+:%s/\s\+$//g
 #include <stdio.h>
 
 /**
