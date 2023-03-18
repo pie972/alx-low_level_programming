@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - the variable output > 0
- * description: assigns random numbers to the variable, n
- * Return: 0
- */
+* main - the variable output > 0
+* description: assigns random numbers to the variable, n
+* Return: 0
+*/
 int main(void)
 {
   int n;
@@ -30,5 +30,3 @@ int main(void)
 
   return (0);
 }
-
-
