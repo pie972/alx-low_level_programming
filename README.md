@@ -5,4 +5,4 @@ The low level curriculum focuses on the understanding of how programming languag
 | Project | Description |
 | --- | --- |
 | [0x00-hello_world](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world) | Introduction to C, GCC compilation, and the implementation of main & print functions |
-| [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while) | Loops and Conditionals: if, else, while and boolean and arithmetic operators |
+| [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while) | Loops and Conditionals: if, else, while and boolean & arithmetic operators |
