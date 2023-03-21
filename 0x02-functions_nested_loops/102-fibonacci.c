@@ -19,7 +19,7 @@ int main(void)
 		b += a;
 	}
 	if (countto % 2 == 1)
-		printf("%li", a);
+		printf("%li,", a);
 
 	printf("\n");
 
