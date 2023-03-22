@@ -82,7 +82,7 @@ pie@ubuntu:/debugging$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 positive_o
 pie@ubuntu:/debugging$ ./0-main
 0 is zero
 pie@ubuntu:/debugging$ wc -l 0-main.c
-16 1-main.c
+16 0-main.c
 pie@ubuntu:/debugging$ 
 ```
 Repo:
