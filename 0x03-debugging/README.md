@@ -383,3 +383,12 @@ Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x03-debugging](https://github.com/pie972/alx-low_level_programming/tree/master/0x03-debugging)
 - File: [3-print_remaining_days.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x03-debugging/3-print_remaining_days.c), [main.h](https://github.com/pie972/alx-low_level_programming/blob/master/0x03-debugging/main.h)
+
+
+## WHEN to Contribute? ##
+You are ***always welcome*** to contribute.
+
+## HOW to Contribute? ##
+- [x] Fork this repository.
+- [x] Do your desired changes.
+- [x] Make a pull request.
