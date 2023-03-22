@@ -32,7 +32,7 @@
 # Tasks
 --------------------------------------------------------------------------
 ## 0. Multiple mains
-In most projects, we often give you only one main file to test with. For example, this main file is a test for a ***postitive_or_negative()*** function similar to the one you worked with in an [earlier C project](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c):
+In most projects, we are often given only one main file to test with. For example, this main file is a test for a ***postitive_or_negative()*** function similar to the one we worked with in an [earlier C project](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c):
 ```bash
  pie@ubuntu:/debugging$ cat main.c
 #include "main.h"
