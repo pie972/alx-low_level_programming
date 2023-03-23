@@ -22,3 +22,5 @@ The low level curriculum focuses on the understanding of how programming languag
 | [0x00-hello_world](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world) | Introduction to C, GCC compilation, and the implementation of main & print functions |
 | [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while) | Loops and Conditionals: if, else, while and boolean & arithmetic operators |
 | [0x02-functions_nested_loops](https://github.com/pie972/alx-low_level_programming/tree/master/0x02-functions_nested_loops) | Use of Functions and Nested Loops and implementation of header files, variable scoping |
+| [0x03-debugging](https://github.com/pie972/alx-low_level_programming/tree/master/0x03-debugging) | Introduction to Debugging, how to read error messages, and how to manage them |
+| [0x04-more_functions_nested_loops](https://github.com/pie972/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops) | Understanding 2D planes with nested loops, also, the differences between defining the function and declaration |
