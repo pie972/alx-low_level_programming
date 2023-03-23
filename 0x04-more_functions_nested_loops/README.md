@@ -116,7 +116,7 @@ Repo:
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x04-more_functions_nested_loops](https://github.com/pie972/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)
-- File: [5. Numbers constitute the only universal language](https://github.com/pie972/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops/5. Numbers constitute the only universal language)
+- File: [5-more_numbers.c](https://github.com/pie972/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops/5-more_numbers.c)
 
 
 
