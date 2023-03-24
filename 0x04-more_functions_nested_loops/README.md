@@ -84,11 +84,37 @@ Repo:
 
 
 ## 1. isdigit
-
+Write a function that checks for a digit (0 through 9).
+* Prototype: ***int _isdigit(int c);***
+* Returns ***1*** if ***c*** is a digit
+* Returns ***0*** otherwise
+FYI: The standard library provides a similar function: ***isdigit***. Run ***man isdigit*** to learn more.
 ```bash
+pie@ubuntu:~/0x04$ cat 1-main.c 
+#include "main.h"
+#include <stdio.h>
 
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    char c;
+
+    c = '0';
+    printf("%c: %d\n", c, _isdigit(c));
+    c = 'a';
+    printf("%c: %d\n", c, _isdigit(c));
+    return (0);
+}
+pie@ubuntu:~/0x04$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-isdigit.c -o 1-isdigit
+pie@ubuntu:~/0x04$ ./1-isdigit 
+0: 1
+a: 0
+pie@ubuntu:~/0x04$ 
 ```
-
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x04-more_functions_nested_loops](https://github.com/pie972/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)
