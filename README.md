@@ -24,3 +24,12 @@ The low level curriculum focuses on the understanding of how programming languag
 | [0x02-functions_nested_loops](https://github.com/pie972/alx-low_level_programming/tree/master/0x02-functions_nested_loops) | Use of Functions & Nested Loops and implementation of header files and variable scoping |
 | [0x03-debugging](https://github.com/pie972/alx-low_level_programming/tree/master/0x03-debugging) | Introduction to Debugging, how to read error messages, and how to manage them |
 | [0x04-more_functions_nested_loops](https://github.com/pie972/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops) | Understanding 2D planes with nested loops, as well as Understanding the differences between defining a function and declaration of a function |
+
+
+### Author
+
+Imane J.
+
+Email me on [i.jalal@aui.ma](i.jalal@aui.ma)
+
+Follow me on [Linkedin](https://www.linkedin.com/in/imanejalal972/)
