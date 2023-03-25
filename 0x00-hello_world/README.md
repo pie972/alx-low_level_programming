@@ -36,37 +36,37 @@
 * Why C programming is awesome
 * Who invented C
 * Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
-* What happens when you type _gcc main.c_
+* What happens when you type ***gcc main.c***
 * What is an entry point
-* What is _main_
-* How to print text using _printf_, _puts_ and _putchar_
-* How to get the size of a specific type using the unary operator _sizeof_
-* How to compile using _gcc_
-* What is the default program name when compiling with _gcc_
-* What is the official C coding style and how to check your code with _betty-style_
+* What is ***main***
+* How to print text using ***printf***, ***puts*** and ***putchar***
+* How to get the size of a specific type using the unary operator ***sizeof***
+* How to compile using ***gcc***
+* What is the default program name when compiling with ***gcc***
+* What is the official C coding style and how to check your code with ***betty-style***
 * How to find the right header to include in your source code when using a standard library function
-* How does the _main_ function influence the return value of the program
+* How does the ***main*** function influence the return value of the program
 <br />
 
 
 # Requirements
 --------------------------------------------------------------------------
 ## C
-* Allowed editors: _vi_, _vim_, _emacs_
-* All your files will be compiled on Ubuntu 20.04 LTS using _gcc_, using the options _-Wall -Werror -Wextra -pedantic -std=gnu89_
+* Allowed editors: ***vi***, ***vim***, ***emacs***
+* All your files will be compiled on Ubuntu 20.04 LTS using ***gcc***, using the options ***-Wall -Werror -Wextra -pedantic -std=gnu89***
 * All your files should end with a new line
 * There should be no errors and no warnings during compilation
-* You are not allowed to use _system_
-* Your code should use the _Betty_ style. It will be checked using [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl) and [betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)
+* You are not allowed to use ***system***
+* Your code should use the ***Betty*** style. It will be checked using [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl) and [betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)
 <br />
 
 
 ## Shell Scripts
-* Allowed editors: _vi_, _vim_, _emacs_
+* Allowed editors: ***vi***, ***vim***, ***emacs***
 * All your scripts will be tested on Ubuntu 20.04 LTS
-* All your scripts should be exactly two lines long (_$ wc -l file_ should print 2)
+* All your scripts should be exactly two lines long (***$ wc -l file*** should print 2)
 * All your files should end with a new line
-* The first line of all your files should be exactly _#!/bin/bash_
+* The first line of all your files should be exactly ***#!/bin/bash***
 <br /><br />
 
 
@@ -75,9 +75,9 @@
 To run the Betty linter just with command *betty <filename>*:
 * Go to the [Betty](https://github.com/holbertonschool/Betty) repository
 * Clone the repo to your local machine
-* _cd_ into the Betty directory
-* Install the linter with _sudo ./install.sh_
-* _emacs_ or _vi_ a new file called _betty_, and copy the script below:
+* ***cd*** into the Betty directory
+* Install the linter with ***sudo ./install.sh***
+* ***emacs*** or ***vi*** a new file called ***betty***, and copy the script below:
 ```bash
 #!/bin/bash
 # Simply a wrapper script to keep you from having to use betty-style
@@ -100,9 +100,9 @@ for argument in "$@" ; do
     ${BIN_PATH}/${BETTY_DOC} "$argument"
 done
 ```
-* Once saved, exit file and change permissions to apply to all users with _chmod a+x betty_
-* Move the _betty_ file into _/bin/_ directory or somewhere else in your _$PATH_ with _sudo mv betty /bin/_
-You can now type _betty <filename>_ to run the Betty linter!
+* Once saved, exit file and change permissions to apply to all users with ***chmod a+x betty***
+* Move the ***betty*** file into ***/bin/*** directory or somewhere else in your ***$PATH*** with ***sudo mv betty /bin/***
+You can now type ***betty <filename>*** to run the Betty linter!
 <br /><br />
 
 
