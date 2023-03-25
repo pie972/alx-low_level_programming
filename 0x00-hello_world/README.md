@@ -143,6 +143,7 @@ Repo:
 - File: [0-preprocessor](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x00-shell_basics/0-preprocessor)
 
 
+    
 ## 1. Compiler
 Write a script that compiles a C file but does not link.
 * The C file name will be saved in the variable $CFILE
@@ -175,6 +176,7 @@ Repo:
 - Directory: [0x00-shell_basics](https://github.com/pie972/alx-system_engineering-devops/tree/master/0x00-shell_basics)
 - File: [1-compiler](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x00-shell_basics/1-compiler)
 
+    
 
 ## 2. Assembler
 Write a script that generates the assembly code of a C code and save it in an output file.
@@ -227,6 +229,7 @@ Repo:
 - Directory: [0x00-shell_basics](https://github.com/pie972/alx-system_engineering-devops/tree/master/0x00-shell_basics)
 - File: [2-assembler](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x00-shell_basics/2-assembler)
 
+    
 
 ## 3. Name
 Write a script that compiles a C file and creates an executable named _cisfun_.
@@ -257,6 +260,7 @@ Repo:
 - File: [3-name](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x00-shell_basics/3-name)
 
 
+    
 ## 4. Hello, puts
 Write a C program that prints exactly _"Programming is like building a multilingual puzzle_, followed by a new line.
 * Use the function _puts_
@@ -275,6 +279,7 @@ Repo:
 - File: [4-puts.c](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/4-puts.c)
 
 
+    
 ## 5. Hello, printf
 Write a C program that prints exactly _with proper grammar, but the outcome is a piece of art,_, followed by a new line.
 * Use the function _printf_
@@ -295,6 +300,7 @@ Repo:
 - File: [5-printf.c](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/5-printf.c)
 
 
+    
 ## 6. Size is not grandeur, and territory does not make a nation
 Write a C program that prints the size of various types on the computer it is compiled and run on.
 * You should produce the exact same output as in the example
@@ -326,6 +332,7 @@ Repo:
 - File: [6-size.c](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/6-size.c)
 
 
+    
 ## 7. Intel
 Write a script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
 * The C file name will be saved in the variable _$CFILE_.
@@ -378,6 +385,7 @@ Repo:
 - File: [100-intel](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/100-intel)
 
 
+    
 ## 8. UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity
 Write a C program that prints exactly _and that piece of art is useful" - Dora Korpar, 2015-10-19_, followed by a new line, to the standard error.
 * You are not allowed to use any functions listed in the NAME section of the man (3) *printf* or man (3) *puts*
