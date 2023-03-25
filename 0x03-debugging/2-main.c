@@ -5,6 +5,7 @@
 * main - prints the largest of 3 integers
 * Return: 0
 */
+int largest_number(int a, int b, int c);
 
 int main(void)
 {
