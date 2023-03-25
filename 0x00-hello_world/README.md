@@ -1,4 +1,7 @@
 # Low-level programming & Algorithm - Hatching out
+# GCC, PRINTF, PUTS
+
+
 # Concepts
 --------------------------------------------------------------------------
 [C programming](https://github.com/pie972/alx-low_level_programming/blob/master/0x00-hello_world/C%20programming.pdf)
