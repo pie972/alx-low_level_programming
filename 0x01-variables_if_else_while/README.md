@@ -5,7 +5,7 @@
 # Resources
 --------------------------------------------------------------------------
 ## Read or watch:
-[Everything you need to know to start with C.pdf (You do not have to learn everything in there yet, but make sure you read it entirely first and make sure you understand the slides: “comments”, “Data types | Integer types”, “Declaration”, “Characters”, “Arithmetic operators”, “Variables assignments”, “Comparisons”, “Logical operators”, “if, if…else”, “while loops”.)](https://github.com/pie972/alx-low_level_programming/blob/master/0x00-hello_world/C%20programming.pdf) <br />
+[Everything you need to know to start with C.pdf](https://github.com/pie972/alx-low_level_programming/blob/master/0x00-hello_world/C%20programming.pdf) (You do not have to learn everything in there yet, but make sure you read it entirely first and make sure you understand the slides: “comments”, “Data types | Integer types”, “Declaration”, “Characters”, “Arithmetic operators”, “Variables assignments”, “Comparisons”, “Logical operators”, “if, if…else”, “while loops”.)<br />
 [Keywords and identifiers](https://publications.gbdirect.co.uk//c_book/chapter2/keywords_and_identifiers.html) <br />
 [integers](https://publications.gbdirect.co.uk//c_book/chapter2/integral_types.html) <br />
 [Arithmetic Operators in C](https://www.tutorialspoint.com/cprogramming/c_arithmetic_operators.htm) <br />
