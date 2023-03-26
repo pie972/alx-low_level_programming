@@ -58,14 +58,40 @@
 # Tasks
 --------------------------------------------------------------------------
 ## 0. Positive anything is better than negative nothing
-
+This program will assign a random number to the variable ***n*** each time it is executed. Complete the source code in order to print whether the number stored in the variable ***n*** is positive or negative.
+* You can find the source code [here](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/positive_or_negative.c)
+* The variable ***n*** will store a different value every time you will run this program
+* You don’t have to understand what ***rand***, ***srand***, ***RAND_MAX*** do. Please do not touch this code
+* The output of the program should be:
+    * The number, followed by
+        - if the number is greater than 0: ***is positive***
+        - if the number is 0: ***is zero***
+        - if the number is less than 0: ***is negative***
+    * followed by a new line
 ```bash
-
+pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_negative.c -o 0-positive_or_negative
+pie@ubuntu:~/0x01$ ./0-positive_or_negative 
+-520693284 is negative
+pie@ubuntu:~/0x01$ ./0-positive_or_negative 
+-973398895 is negative
+pie@ubuntu:~/0x01$ ./0-positive_or_negative 
+-199220452 is negative
+pie@ubuntu:~/0x01$ ./0-positive_or_negative 
+561319348 is positive
+pie@ubuntu:~/0x01$ ./0-positive_or_negative 
+561319348 is positive
+pie@ubuntu:~/0x01$ ./0-positive_or_negative 
+266853958 is positive
+pie@ubuntu:~/0x01$ ./0-positive_or_negative 
+-48147767 is negative
+pie@ubuntu:~/0x01$ ./0-positive_or_negative 
+0 is zero
+pie@ubuntu:~/0x01$ 
 ```
 Repo:
-- GitHub repository: [alx-system_engineering-devops](https://github.com/pie972/alx-system_engineering-devops)
-- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-system_engineering-devops/tree/master/0x01-variables_if_else_while)
-- File: [0-positive_or_negative.c](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c)
+- GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
+- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
+- File: [0-positive_or_negative.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c)
 
 
     
@@ -75,9 +101,9 @@ Repo:
 
 ```
 Repo:
-- GitHub repository: [alx-system_engineering-devops](https://github.com/pie972/alx-system_engineering-devops)
-- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-system_engineering-devops/tree/master/0x01-variables_if_else_while)
-- File: [1-last_digit.c](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x01-variables_if_else_while/1-last_digit.c)
+- GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
+- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
+- File: [1-last_digit.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/1-last_digit.c)
 
 
 
@@ -87,9 +113,9 @@ Repo:
 
 ```
 Repo:
-- GitHub repository: [alx-system_engineering-devops](https://github.com/pie972/alx-system_engineering-devops)
-- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-system_engineering-devops/tree/master/0x01-variables_if_else_while)
-- File: [2-print_alphabet.c](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x01-variables_if_else_while/2-print_alphabet.c)
+- GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
+- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
+- File: [2-print_alphabet.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/2-print_alphabet.c)
 
 
 
@@ -99,9 +125,9 @@ Repo:
 
 ```
 Repo:
-- GitHub repository: [alx-system_engineering-devops](https://github.com/pie972/alx-system_engineering-devops)
-- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-system_engineering-devops/tree/master/0x01-variables_if_else_while)
-- File: [3-print_alphabets.c](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x01-variables_if_else_while/3-print_alphabets.c)
+- GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
+- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
+- File: [3-print_alphabets.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/3-print_alphabets.c)
 
 
 
@@ -111,9 +137,9 @@ Repo:
 
 ```
 Repo:
-- GitHub repository: [alx-system_engineering-devops](https://github.com/pie972/alx-system_engineering-devops)
-- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-system_engineering-devops/tree/master/0x01-variables_if_else_while)
-- File: [4-print_alphabt.c](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x01-variables_if_else_while/4-print_alphabt.c)
+- GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
+- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
+- File: [4-print_alphabt.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/4-print_alphabt.c)
 
 
 
@@ -123,9 +149,9 @@ Repo:
 
 ```
 Repo:
-- GitHub repository: [alx-system_engineering-devops](https://github.com/pie972/alx-system_engineering-devops)
-- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-system_engineering-devops/tree/master/0x01-variables_if_else_while)
-- File: [5-print_numbers.c](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x01-variables_if_else_while/5-print_numbers.c)
+- GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
+- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
+- File: [5-print_numbers.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/5-print_numbers.c)
 
 
 
@@ -135,9 +161,9 @@ Repo:
 
 ```
 Repo:
-- GitHub repository: [alx-system_engineering-devops](https://github.com/pie972/alx-system_engineering-devops)
-- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-system_engineering-devops/tree/master/0x01-variables_if_else_while)
-- File: [6-print_numberz.c](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x01-variables_if_else_while/6-print_numberz.c)
+- GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
+- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
+- File: [6-print_numberz.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/6-print_numberz.c)
 
 
 
@@ -147,9 +173,9 @@ Repo:
 
 ```
 Repo:
-- GitHub repository: [alx-system_engineering-devops](https://github.com/pie972/alx-system_engineering-devops)
-- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-system_engineering-devops/tree/master/0x01-variables_if_else_while)
-- File: [7-print_tebahpla.c](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x01-variables_if_else_while/7-print_tebahpla.c)
+- GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
+- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
+- File: [7-print_tebahpla.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/7-print_tebahpla.c)
 
 
 
@@ -159,9 +185,9 @@ Repo:
 
 ```
 Repo:
-- GitHub repository: [alx-system_engineering-devops](https://github.com/pie972/alx-system_engineering-devops)
-- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-system_engineering-devops/tree/master/0x01-variables_if_else_while)
-- File: [8-print_base16.c](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x01-variables_if_else_while/8-print_base16.c)
+- GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
+- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
+- File: [8-print_base16.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/8-print_base16.c)
 
 
 
@@ -171,9 +197,9 @@ Repo:
 
 ```
 Repo:
-- GitHub repository: [alx-system_engineering-devops](https://github.com/pie972/alx-system_engineering-devops)
-- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-system_engineering-devops/tree/master/0x01-variables_if_else_while)
-- File: [9-print_comb.c](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x01-variables_if_else_while/9-print_comb.c)
+- GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
+- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
+- File: [9-print_comb.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/9-print_comb.c)
 
 
 
@@ -183,9 +209,9 @@ Repo:
 
 ```
 Repo:
-- GitHub repository: [alx-system_engineering-devops](https://github.com/pie972/alx-system_engineering-devops)
-- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-system_engineering-devops/tree/master/0x01-variables_if_else_while)
-- File: [100-print_comb3.c](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x01-variables_if_else_while/100-print_comb3.c)
+- GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
+- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
+- File: [100-print_comb3.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/100-print_comb3.c)
 
 
 
@@ -195,9 +221,9 @@ Repo:
 
 ```
 Repo:
-- GitHub repository: [alx-system_engineering-devops](https://github.com/pie972/alx-system_engineering-devops)
-- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-system_engineering-devops/tree/master/0x01-variables_if_else_while)
-- File: [101-print_comb4.c](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x01-variables_if_else_while/101-print_comb4.c)
+- GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
+- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
+- File: [101-print_comb4.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/101-print_comb4.c)
 
 
 
@@ -207,14 +233,9 @@ Repo:
 
 ```
 Repo:
-- GitHub repository: [alx-system_engineering-devops](https://github.com/pie972/alx-system_engineering-devops)
-- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-system_engineering-devops/tree/master/0x01-variables_if_else_while)
-- File: [102-print_comb5.c](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x01-variables_if_else_while/102-print_comb5.c)
-
-
-
-
-
+- GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
+- Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
+- File: [102-print_comb5.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/102-print_comb5.c)
 
 
 
