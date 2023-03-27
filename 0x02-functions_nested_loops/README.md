@@ -1,4 +1,6 @@
-Functions and nested loops
+# Low-level programming & Algorithm - Hatching out
+# Functions and nested loops
+
 # Resources
 --------------------------------------------------------------------------
 ## Read or watch:
