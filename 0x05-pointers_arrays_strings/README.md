@@ -4,7 +4,7 @@
 
 # Concepts
 --------------------------------------------------------------------------
-[Pointers and arrays](https://github.com/pie972/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/PointersAndArrays.md)
+[Pointers and arrays](https://github.com/pie972/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/PointersAndArrays.md) <br />
 [Data Structures](https://github.com/pie972/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/DataStructures.md)
 <br /><br />
 
