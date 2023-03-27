@@ -1,5 +1,5 @@
 # Low-level programming & Algorithm - Hatching out
-# Nested Loops
+# Functions and nested loops PART 2
 
 # Resources
 --------------------------------------------------------------------------
