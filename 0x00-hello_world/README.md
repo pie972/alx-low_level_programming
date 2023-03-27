@@ -11,7 +11,7 @@
 # Resources
 --------------------------------------------------------------------------
 ## Read or watch:
-[Everything you need to know to start with C.pdf](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2022/4/e0ccf91eec6b977a9e00ed384dc285df9c2772e3.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230316%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230316T125142Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=bec1afc3c57df4fa0111d4a5b9a5e3766a6a0b841d84a3c00bd78b0d6da9b6fc) <br />
+[Everything you need to know to start with C.pdf](https://github.com/pie972/alx-low_level_programming/blob/master/0x00-hello_world/C%20programming.pdf) <br />
 [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie) <br />
 [“C” Programming Language: Brian Kernighan](https://www.youtube.com/watch?v=de2Hsvxaf8M) <br />
 [Why C Programming Is Awesome](https://www.youtube.com/watch?v=smGalmxPVYc) <br />
@@ -141,9 +141,9 @@ int main(void)
 pie@ubuntu:~/c/0x00$ 
 ```
 Repo:
-- GitHub repository: [alx-system_engineering-devops](https://github.com/pie972/alx-system_engineering-devops)
-- Directory: [0x00-shell_basics](https://github.com/pie972/alx-system_engineering-devops/tree/master/0x00-shell_basics)
-- File: [0-preprocessor](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x00-shell_basics/0-preprocessor)
+- GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
+- Directory: [0x00-hello_world](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world)
+- File: [0-preprocessor](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/0-preprocessor)
 
 
     
@@ -175,9 +175,9 @@ pie@ubuntu:~/c/0x00$ cat -v main.o | head
 ^@^@^@^H^@^@^@^H^@^@^@^@^@^@^@^X^@^@^@^@^@^@^@  ^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@M-^P^A^@^@^@^@^@^@^M^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@pie@ubuntu:~/c/0x00$ 
 ```
 Repo:
-- GitHub repository: [alx-system_engineering-devops](https://github.com/pie972/alx-system_engineering-devops)
-- Directory: [0x00-shell_basics](https://github.com/pie972/alx-system_engineering-devops/tree/master/0x00-shell_basics)
-- File: [1-compiler](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x00-shell_basics/1-compiler)
+- GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
+- Directory: [0x00-hello_world](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world)
+- File: [1-compiler](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/1-compiler)
 
     
 
@@ -228,9 +228,9 @@ main:
 pie@ubuntu:~/c/0x00$ 
 ```
 Repo:
-- GitHub repository: [alx-system_engineering-devops](https://github.com/pie972/alx-system_engineering-devops)
-- Directory: [0x00-shell_basics](https://github.com/pie972/alx-system_engineering-devops/tree/master/0x00-shell_basics)
-- File: [2-assembler](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x00-shell_basics/2-assembler)
+- GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
+- Directory: [0x00-hello_world](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world)
+- File: [2-assembler](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/2-assembler)
 
     
 
@@ -258,9 +258,9 @@ pie@ubuntu:~/c/0x00$ ls
 pie@ubuntu:~/c/0x00$ 
 ```
 Repo:
-- GitHub repository: [alx-system_engineering-devops](https://github.com/pie972/alx-system_engineering-devops)
-- Directory: [0x00-shell_basics](https://github.com/pie972/alx-system_engineering-devops/tree/master/0x00-shell_basics)
-- File: [3-name](https://github.com/pie972/alx-system_engineering-devops/blob/master/0x00-shell_basics/3-name)
+- GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
+- Directory: [0x00-hello_world](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world)
+- File: [3-name](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/3-name)
 
 
     
