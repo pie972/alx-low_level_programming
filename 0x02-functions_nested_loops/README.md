@@ -1,4 +1,4 @@
-TO BE CHECKED
+Functions and nested loops
 # Resources
 --------------------------------------------------------------------------
 ## Read or watch:
