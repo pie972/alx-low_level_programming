@@ -1,13 +1,16 @@
 # Low-level programming & Algorithm - Hatching out
 # C - Debugging 
 
+
+
 # Resources
 --------------------------------------------------------------------------
 ## Read or watch:
 [Debugging](https://en.wikipedia.org/wiki/Debugging) <br />
 [Rubber Duck Debugging](https://www.thoughtfulcode.com/rubber-duck-debugging-psychology/) <br /><br />
 - Debugging is the process of finding and fixing errors in software that prevents it from running correctly. As you become a more advanced programmer and an industry engineer, you will learn how to use debugging tools such as ***gdb*** or built-in tools that IDEs have. However, it’s important to understand the concepts and processes of debugging manually.<br /><br /><br />
-![image](https://user-images.githubusercontent.com/78828566/226887397-2958f64b-d04b-4aeb-a7d3-050c84d4578b.png) <br />
+![image](https://user-images.githubusercontent.com/78828566/226887397-2958f64b-d04b-4aeb-a7d3-050c84d4578b.png) 
+<br /><br />
 
 
 
@@ -17,7 +20,8 @@
 * What is debugging
 * What are some methods of debugging manually
 * How to read the error messages
-<br />
+<br /><br />
+
 
 
 # Requirements
@@ -30,66 +34,67 @@
 <br /><br />
 
 
+
 # Tasks
 --------------------------------------------------------------------------
 ## 0. Multiple mains
 In most projects, we are often given only one main file to test with. For example, this main file is a test for a ***postitive_or_negative()*** function similar to the one we worked with in an [earlier C project](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c):
-```bash
- pie@ubuntu:/debugging$ cat main.c
-#include "main.h"
+  ```bash
+   pie@ubuntu:/debugging$ cat main.c
+  #include "main.h"
 
-/**
-* main - tests function that prints if integer is positive or negative
-* Return: 0
-*/
+  /**
+  * main - tests function that prints if integer is positive or negative
+  * Return: 0
+  */
 
-int main(void)
-{
-        int i;
+  int main(void)
+  {
+          int i;
 
-        i = 98;
-        positive_or_negative(i);
+          i = 98;
+          positive_or_negative(i);
 
-        return (0);
-}
-pie@ubuntu:/debugging$
-```
+          return (0);
+  }
+  pie@ubuntu:/debugging$
+  ```
 
-```bash
-pie@ubuntu:/debugging$ cat main.h
-#ifndef MAIN_H
-#define MAIN_H
+  ```bash
+  pie@ubuntu:/debugging$ cat main.h
+  #ifndef MAIN_H
+  #define MAIN_H
 
-#include <stdio.h>
+  #include <stdio.h>
 
-void positive_or_negative(int i);
+  void positive_or_negative(int i);
 
-#endif /* MAIN_H */
-pie@ubuntu:/debugging$ 
-```
+  #endif /* MAIN_H */
+  pie@ubuntu:/debugging$ 
+  ```
 
-```bash
-pie@ubuntu:/debugging$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 positive_or_negative.c main.c
-pie@ubuntu:/debugging$ ./a.out
-98 is positive
-pie@ubuntu:/debugging$
-```
+  ```bash
+  pie@ubuntu:/debugging$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 positive_or_negative.c main.c
+  pie@ubuntu:/debugging$ ./a.out
+  98 is positive
+  pie@ubuntu:/debugging$
+  ```
 Based on the ***main.c*** file above, create a file named ***0-main.c***. This file must test that the function ***positive_or_negative()*** gives the correct output when given a case of ***0***.
 You are not coding the solution / function, you’re just testing it! However, you can adapt your function from [0x01. C - Variables, if, else, while - Task #0](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c) to compile with this main file to test locally.
 * You only need to upload ***0-main.c*** and ***main.h*** for this task. We will provide our own ***positive_or_negative()*** function.
 * You are not allowed to add or remove lines of code, you may change only ***one*** line in this task.
-```bash
-pie@ubuntu:/debugging$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 positive_or_negative.c 0-main.c -o 0-main
-pie@ubuntu:/debugging$ ./0-main
-0 is zero
-pie@ubuntu:/debugging$ wc -l 0-main.c
-16 0-main.c
-pie@ubuntu:/debugging$ 
-```
+  ```bash
+  pie@ubuntu:/debugging$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 positive_or_negative.c 0-main.c -o 0-main
+  pie@ubuntu:/debugging$ ./0-main
+  0 is zero
+  pie@ubuntu:/debugging$ wc -l 0-main.c
+  16 0-main.c
+  pie@ubuntu:/debugging$ 
+  ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x03-debugging](https://github.com/pie972/alx-low_level_programming/tree/master/0x03-debugging)
-- File: [0-main.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x03-debugging/0-main.c), [main.h](https://github.com/pie972/alx-low_level_programming/blob/master/0x03-debugging/main.h)
+- File: [0-main.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x03-debugging/0-main.c), [main.h](https://github.com/pie972/alx-low_level_programming/blob/master/0x03-debugging/main.h)<br />
 
 
 
@@ -97,121 +102,122 @@ Repo:
 Copy this main file. Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop.
 * Don’t add or remove any lines of code, as we will be checking your line count. You are only allowed to comment out existing code.
 * You do not have to compile with ***-Wall -Werror -Wextra -pedantic*** for this task.
-```bash
-pie@ubuntu:/debugging$ cat 1-main.c
-#include <stdio.h>
+ ```bash
+ pie@ubuntu:/debugging$ cat 1-main.c
+ #include <stdio.h>
 
-/**
-* main - causes an infinite loop
-* Return: 0
-*/
+ /**
+ * main - causes an infinite loop
+ * Return: 0
+ */
 
-int main(void)
-{
-        int i;
+ int main(void)
+ {
+         int i;
 
-        printf("Infinite loop incoming :(\n");
+         printf("Infinite loop incoming :(\n");
 
-        i = 0;
+         i = 0;
 
-        while (i < 10)
-        {
-                putchar(i);
-        }
+         while (i < 10)
+         {
+                 putchar(i);
+         }
 
-        printf("Infinite loop avoided! \\o/\n");
+         printf("Infinite loop avoided! \\o/\n");
 
-        return (0);
-}
-pie@ubuntu:/debugging$
-```
+         return (0);
+ }
+ pie@ubuntu:/debugging$
+ ```
 Your output should look like this:
-```bash
-pie@ubuntu:/debugging$ gcc -std=gnu89 1-main.c -o 1-main
-pie@ubuntu:/debugging$ ./1-main
-Infinite loop incoming :(
-Infinite loop avoided! \o/
-pie@ubuntu:/debugging$ wc -l 1-main.c
-24 1-main.c
-pie@ubuntu:/debugging$
-```
+ ```bash
+ pie@ubuntu:/debugging$ gcc -std=gnu89 1-main.c -o 1-main
+ pie@ubuntu:/debugging$ ./1-main
+ Infinite loop incoming :(
+ Infinite loop avoided! \o/
+ pie@ubuntu:/debugging$ wc -l 1-main.c
+ 24 1-main.c
+ pie@ubuntu:/debugging$
+ ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x03-debugging](https://github.com/pie972/alx-low_level_programming/tree/master/0x03-debugging)
-- File: [1-main.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x03-debugging/1-main.c)
+- File: [1-main.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x03-debugging/1-main.c)<br />
+
 
 
 ## 2. 0 > 972?
 This program prints the largest of three integers.
-```bash
-pie@ubuntu:/debugging$ cat 2-main.c
-#include <stdio.h>
-#include "main.h"
+  ```bash
+  pie@ubuntu:/debugging$ cat 2-main.c
+  #include <stdio.h>
+  #include "main.h"
 
-/**
-* main - prints the largest of 3 integers
-* Return: 0
-*/
+  /**
+  * main - prints the largest of 3 integers
+  * Return: 0
+  */
 
-int main(void)
-{
-        int a, b, c;
-        int largest;
+  int main(void)
+  {
+          int a, b, c;
+          int largest;
 
-        a = 972;
-        b = -98;
-        c = 0;
+          a = 972;
+          b = -98;
+          c = 0;
 
-        largest = largest_number(a, b, c);
+          largest = largest_number(a, b, c);
 
-        printf("%d is the largest number\n", largest);
+          printf("%d is the largest number\n", largest);
 
-        return (0);
-}
-pie@ubuntu:/debugging$
-```
+          return (0);
+  }
+  pie@ubuntu:/debugging$
+  ```
 
-```bash
-pie@ubuntu:/debugging$ cat 2-largest_number.c
-#include "main.h"
+  ```bash
+  pie@ubuntu:/debugging$ cat 2-largest_number.c
+  #include "main.h"
 
-/**
- * largest_number - returns the largest of 3 numbers
- * @a: first integer
- * @b: second integer
- * @c: third integer
- * Return: largest number
- */
+  /**
+   * largest_number - returns the largest of 3 numbers
+   * @a: first integer
+   * @b: second integer
+   * @c: third integer
+   * Return: largest number
+   */
 
-int largest_number(int a, int b, int c)
-{
-    int largest;
+  int largest_number(int a, int b, int c)
+  {
+      int largest;
 
-    if (a > b && b > c)
-    {
-        largest = a;
-    }
-    else if (b > a && a > c)
-    {
-        largest = b;
-    }
-    else
-    {
-        largest = c;
-    }
+      if (a > b && b > c)
+      {
+          largest = a;
+      }
+      else if (b > a && a > c)
+      {
+          largest = b;
+      }
+      else
+      {
+          largest = c;
+      }
 
-    return (largest);
-}
+      return (largest);
+  }
 
-pie@ubuntu:/debugging$
-```
+  pie@ubuntu:/debugging$
+  ```
 
-```bash
-pie@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 2-largest_number.c 2-main.c -o 2-main
-pie@ubuntu:/debugging$ ./2-main
-0 is the largest number
-pie@ubuntu:/debugging$
-```
+  ```bash
+  pie@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 2-largest_number.c 2-main.c -o 2-main
+  pie@ubuntu:/debugging$ ./2-main
+  0 is the largest number
+  pie@ubuntu:/debugging$
+  ```
 ? That’s definitely not right.
 Fix the code in ***2-largest_number.c*** so that it correctly prints out the largest of three numbers, no matter the case.
 * Line count will not be checked for this task.
@@ -219,161 +225,161 @@ Fix the code in ***2-largest_number.c*** so that it correctly prints out the lar
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x03-debugging](https://github.com/pie972/alx-low_level_programming/tree/master/0x03-debugging)
-- File: [2-largest_number.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x03-debugging/2-largest_number.c), [main.h](https://github.com/pie972/alx-low_level_programming/blob/master/0x03-debugging/main.h)
+- File: [2-largest_number.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x03-debugging/2-largest_number.c), [main.h](https://github.com/pie972/alx-low_level_programming/blob/master/0x03-debugging/main.h)<br />
 
 
 ## 3. Leap year
 This program converts a date to the day of year and determines how many days are left in the year, taking leap year into consideration.
-```bash
-pie@ubuntu:/debugging$ cat 3-main_a.c
-#include <stdio.h>
-#include "main.h"
+  ```bash
+  pie@ubuntu:/debugging$ cat 3-main_a.c
+  #include <stdio.h>
+  #include "main.h"
 
-/**
-* main - takes a date and prints how many days are left in the year, taking
-* leap years into account
-* Return: 0
-*/
+  /**
+  * main - takes a date and prints how many days are left in the year, taking
+  * leap years into account
+  * Return: 0
+  */
 
-int main(void)
-{
-    int month;
-    int day;
-    int year;
+  int main(void)
+  {
+      int month;
+      int day;
+      int year;
 
-    month = 4;
-    day = 01;
-    year = 1997;
+      month = 4;
+      day = 01;
+      year = 1997;
 
-    printf("Date: %02d/%02d/%04d\n", month, day, year);
+      printf("Date: %02d/%02d/%04d\n", month, day, year);
 
-    day = convert_day(month, day);
+      day = convert_day(month, day);
 
-    print_remaining_days(month, day, year);
+      print_remaining_days(month, day, year);
 
-    return (0);
-}
+      return (0);
+  }
 
-pie@ubuntu:/debugging$
-```
+  pie@ubuntu:/debugging$
+  ```
 
-```bash
-pie@ubuntu:/debugging$ cat 3-convert_day.c
-#include "main.h"
+  ```bash
+  pie@ubuntu:/debugging$ cat 3-convert_day.c
+  #include "main.h"
 
-/**
-* convert_day - converts day of month to day of year, without accounting
-* for leap year
-* @month: month in number format
-* @day: day of month
-* Return: day of year
-*/
+  /**
+  * convert_day - converts day of month to day of year, without accounting
+  * for leap year
+  * @month: month in number format
+  * @day: day of month
+  * Return: day of year
+  */
 
-int convert_day(int month, int day)
-{
-    switch (month)
-    {
-        case 2:
-            day = 31 + day;
-            break;
-        case 3:
-            day = 59 + day;
-            break;
-        case 4:
-            day = 90 + day;
-            break;
-        case 5:
-            day = 120 + day;
-            break;
-        case 6:
-            day = 151 + day;
-            break;
-        case 7:
-            day = 181 + day;
-            break;
-        case 8:
-            day = 212 + day;
-            break;
-        case 9:
-            day = 243 + day;
-            break;
-        case 10:
-            day = 273 + day;
-            break;
-        case 11:
-            day = 304 + day;
-            break;
-        case 12:
-            day = 334 + day;
-            break;
-        default:
-            break;
-    }
-    return (day);
-}
+  int convert_day(int month, int day)
+  {
+      switch (month)
+      {
+          case 2:
+              day = 31 + day;
+              break;
+          case 3:
+              day = 59 + day;
+              break;
+          case 4:
+              day = 90 + day;
+              break;
+          case 5:
+              day = 120 + day;
+              break;
+          case 6:
+              day = 151 + day;
+              break;
+          case 7:
+              day = 181 + day;
+              break;
+          case 8:
+              day = 212 + day;
+              break;
+          case 9:
+              day = 243 + day;
+              break;
+          case 10:
+              day = 273 + day;
+              break;
+          case 11:
+              day = 304 + day;
+              break;
+          case 12:
+              day = 334 + day;
+              break;
+          default:
+              break;
+      }
+      return (day);
+  }
 
-pie@ubuntu:/debugging$
-```
+  pie@ubuntu:/debugging$
+  ```
 
-```bash
-pie@ubuntu:/debugging$ cat 3-print_remaining_days.c
-#include <stdio.h>
-#include "main.h"
+  ```bash
+  pie@ubuntu:/debugging$ cat 3-print_remaining_days.c
+  #include <stdio.h>
+  #include "main.h"
 
-/**
-* print_remaining_days - takes a date and prints how many days are
-* left in the year, taking leap years into account
-* @month: month in number format
-* @day: day of month
-* @year: year
-* Return: void
-*/
+  /**
+  * print_remaining_days - takes a date and prints how many days are
+  * left in the year, taking leap years into account
+  * @month: month in number format
+  * @day: day of month
+  * @year: year
+  * Return: void
+  */
 
-void print_remaining_days(int month, int day, int year)
-{
-    if ((year % 4 == 0 || year % 400 == 0) && !(year % 100 == 0))
-    {
-        if (month >= 2 && day >= 60)
-        {
-            day++;
-        }
+  void print_remaining_days(int month, int day, int year)
+  {
+      if ((year % 4 == 0 || year % 400 == 0) && !(year % 100 == 0))
+      {
+          if (month >= 2 && day >= 60)
+          {
+              day++;
+          }
 
-        printf("Day of the year: %d\n", day);
-        printf("Remaining days: %d\n", 366 - day);
-    }
-    else
-    {
-        if (month == 2 && day == 60)
-        {
-            printf("Invalid date: %02d/%02d/%04d\n", month, day - 31, year);
-        }
-        else
-        {
-            printf("Day of the year: %d\n", day);
-            printf("Remaining days: %d\n", 365 - day);
-        }
-    }
-}
+          printf("Day of the year: %d\n", day);
+          printf("Remaining days: %d\n", 366 - day);
+      }
+      else
+      {
+          if (month == 2 && day == 60)
+          {
+              printf("Invalid date: %02d/%02d/%04d\n", month, day - 31, year);
+          }
+          else
+          {
+              printf("Day of the year: %d\n", day);
+              printf("Remaining days: %d\n", 365 - day);
+          }
+      }
+  }
 
-pie@ubuntu:/debugging$ 
-```
+  pie@ubuntu:/debugging$ 
+  ```
 
-```bash
-pie@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 3-convert_day.c 3-print_remaining_days.c 3-main_a.c -o 3-main_a 
-pie@ubuntu:/debugging$ ./3-main_a
-Date: 04/01/1997
-Day of the year: 91
-Remaining days: 274
-pie@ubuntu:/debugging$
-```
+  ```bash
+  pie@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 3-convert_day.c 3-print_remaining_days.c 3-main_a.c -o 3-main_a 
+  pie@ubuntu:/debugging$ ./3-main_a
+  Date: 04/01/1997
+  Day of the year: 91
+  Remaining days: 274
+  pie@ubuntu:/debugging$
+  ```
 Output looks good for ***04/01/1997***! Let’s make a new main file ***3-main_b.c*** to try a case that is a leap year: ***02/29/2000***.
-```bash
-pie@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 3-convert_day.c 3-print_remaining_days.c 3-main_b.c -o 3-main_b 
-pie@ubuntu:/debugging$ ./3-main_b
-Date: 02/29/2000
-Invalid date: 02/29/2000
-pie@ubuntu:/debugging$
-```
+  ```bash
+  pie@ubuntu:/debugging$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 3-convert_day.c 3-print_remaining_days.c 3-main_b.c -o 3-main_b 
+  pie@ubuntu:/debugging$ ./3-main_b
+  Date: 02/29/2000
+  Invalid date: 02/29/2000
+  pie@ubuntu:/debugging$
+  ```
 ? That doesn’t seem right.
 Fix the ***print_remaining_days()*** function so that the output works correctly for _all_ dates and _all_ leap years.
 * Line count will not be checked for this task.
@@ -383,6 +389,6 @@ Fix the ***print_remaining_days()*** function so that the output works correctly
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x03-debugging](https://github.com/pie972/alx-low_level_programming/tree/master/0x03-debugging)
-- File: [3-print_remaining_days.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x03-debugging/3-print_remaining_days.c), [main.h](https://github.com/pie972/alx-low_level_programming/blob/master/0x03-debugging/main.h)
+- File: [3-print_remaining_days.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x03-debugging/3-print_remaining_days.c), [main.h](https://github.com/pie972/alx-low_level_programming/blob/master/0x03-debugging/main.h)<br />
 
 
