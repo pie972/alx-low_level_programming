@@ -2,10 +2,12 @@
 # GCC, PRINTF, PUTS
 
 
+
 # Concepts
 --------------------------------------------------------------------------
 [C programming](https://github.com/pie972/alx-low_level_programming/blob/master/0x00-hello_world/C%20programming.pdf)
 <br /><br />
+
 
 
 # Resources
@@ -27,6 +29,8 @@
 * printf (3)
 * puts
 * putchar
+<br /><br />
+
 
 
 
@@ -46,7 +50,8 @@
 * What is the official C coding style and how to check your code with ***betty-style***
 * How to find the right header to include in your source code when using a standard library function
 * How does the ***main*** function influence the return value of the program
-<br />
+<br /><br />
+
 
 
 # Requirements
@@ -60,15 +65,13 @@
 * Your code should use the ***Betty*** style. It will be checked using [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl) and [betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)
 <br />
 
-
 ## Shell Scripts
 * Allowed editors: ***vi***, ***vim***, ***emacs***
 * All your scripts will be tested on Ubuntu 20.04 LTS
 * All your scripts should be exactly two lines long (***$ wc -l file*** should print 2)
 * All your files should end with a new line
 * The first line of all your files should be exactly ***#!/bin/bash***
-<br /><br />
-
+<br />
 
 ## More Info
 ### Betty linter
@@ -78,32 +81,33 @@ To run the Betty linter just with command *betty <filename>*:
 * ***cd*** into the Betty directory
 * Install the linter with ***sudo ./install.sh***
 * ***emacs*** or ***vi*** a new file called ***betty***, and copy the script below:
-```bash
-#!/bin/bash
-# Simply a wrapper script to keep you from having to use betty-style
-# and betty-doc separately on every item.
-# Originally by Tim Britton (@wintermanc3r), multiargument added by
-# Larry Madeo (@hillmonkey)
+        ```bash
+        #!/bin/bash
+        # Simply a wrapper script to keep you from having to use betty-style
+        # and betty-doc separately on every item.
+        # Originally by Tim Britton (@wintermanc3r), multiargument added by
+        # Larry Madeo (@hillmonkey)
 
-BIN_PATH="/usr/local/bin"
-BETTY_STYLE="betty-style"
-BETTY_DOC="betty-doc"
+        BIN_PATH="/usr/local/bin"
+        BETTY_STYLE="betty-style"
+        BETTY_DOC="betty-doc"
 
-if [ "$#" = "0" ]; then
-    echo "No arguments passed."
-    exit 1
-fi
+        if [ "$#" = "0" ]; then
+            echo "No arguments passed."
+            exit 1
+        fi
 
-for argument in "$@" ; do
-    echo -e "\n========== $argument =========="
-    ${BIN_PATH}/${BETTY_STYLE} "$argument"
-    ${BIN_PATH}/${BETTY_DOC} "$argument"
-done
-```
+        for argument in "$@" ; do
+            echo -e "\n========== $argument =========="
+            ${BIN_PATH}/${BETTY_STYLE} "$argument"
+            ${BIN_PATH}/${BETTY_DOC} "$argument"
+        done
+        ```
 * Once saved, exit file and change permissions to apply to all users with ***chmod a+x betty***
 * Move the ***betty*** file into ***/bin/*** directory or somewhere else in your ***$PATH*** with ***sudo mv betty /bin/***
 You can now type ***betty <filename>*** to run the Betty linter!
 <br /><br />
+
 
 
 # Tasks
@@ -143,8 +147,8 @@ Write a script that runs a C file through the preprocessor and save the result i
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x00-hello_world](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world)
-- File: [0-preprocessor](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/0-preprocessor)
-
+- File: [0-preprocessor](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/0-preprocessor)<br />
+    
 
     
 ## 1. Compiler
@@ -177,8 +181,8 @@ Write a script that compiles a C file but does not link.
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x00-hello_world](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world)
-- File: [1-compiler](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/1-compiler)
-
+- File: [1-compiler](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/1-compiler)<br />
+    
     
 
 ## 2. Assembler
@@ -230,8 +234,8 @@ Write a script that generates the assembly code of a C code and save it in an ou
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x00-hello_world](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world)
-- File: [2-assembler](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/2-assembler)
-
+- File: [2-assembler](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/2-assembler)<br />
+    
     
 
 ## 3. Name
@@ -260,7 +264,7 @@ Write a script that compiles a C file and creates an executable named ***cisfun*
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x00-hello_world](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world)
-- File: [3-name](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/3-name)
+- File: [3-name](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/3-name)<br />
 
 
     
@@ -279,7 +283,7 @@ Write a C program that prints exactly ***"Programming is like building a multili
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x00-hello_world](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world)
-- File: [4-puts.c](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/4-puts.c)
+- File: [4-puts.c](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/4-puts.c)<br />
 
 
     
@@ -300,7 +304,7 @@ Write a C program that prints exactly ***with proper grammar, but the outcome is
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x00-hello_world](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world)
-- File: [5-printf.c](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/5-printf.c)
+- File: [5-printf.c](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/5-printf.c)<br />
 
 
     
@@ -332,7 +336,7 @@ Write a C program that prints the size of various types on the computer it is co
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x00-hello_world](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world)
-- File: [6-size.c](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/6-size.c)
+- File: [6-size.c](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/6-size.c)<br />
 
 
     
@@ -385,7 +389,7 @@ Write a script that generates the assembly code (Intel syntax) of a C code and s
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x00-hello_world](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world)
-- File: [100-intel](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/100-intel)
+- File: [100-intel](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/100-intel)<br />
 
 
     
@@ -410,6 +414,6 @@ Write a C program that prints exactly ***and that piece of art is useful" - Dora
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x00-hello_world](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world)
-- File: [101-quote.c](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/101-quote.c)
+- File: [101-quote.c](https://github.com/pie972/alx-low_level_programming/tree/master/0x00-hello_world/101-quote.c)<br />
 
 
