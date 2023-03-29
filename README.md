@@ -14,7 +14,8 @@
 * Style guidelines: [Betty style](https://github.com/holbertonschool/Betty/wiki)
 
 # Low Level Programming in C
-The low level curriculum focuses on the understanding of how programming languages and UNIX systems work--"what is going on under the hood." This allows you to optimize and debug your programs. The curriculum focuses on algorithms and data structures.
+The low level curriculum focuses on the understanding of how programming languages and UNIX systems work - ```"what is going on under the hood."``` T
+his allows you to optimize and debug your programs. The curriculum focuses on algorithms and data structures.
 
 ## Projects
 | Project | Description |
