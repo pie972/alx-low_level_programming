@@ -2,6 +2,7 @@
 # C CODE - ASCII, IF/ELSE, FOR LOOPS, & MANIPULATING NUMBERS
 
 
+
 # Resources
 --------------------------------------------------------------------------
 ## Read or watch:
@@ -18,7 +19,7 @@
 
 ## man or help:
 ***ascii*** (You do not need to learn about ***scanf***, ***getc***, ***getchar***, ***EOF***, ***EXIT_SUCCESS***, ***time***, ***rand***, ***srand***, ***RAND_MAX***, ***for*** loops, ***do...while*** loops, functions.)
-<br />
+<br /><br />
 
 
 
@@ -40,7 +41,8 @@
 * How to print variables using ***printf***
 * What is the ***ASCII*** character set
 * What are the purpose of the gcc flags ***-m32*** and ***-m64***
-<br />
+<br /><br />
+
 
 
 # Requirements
@@ -53,6 +55,7 @@
 * You are not allowed to use ***system***
 * Your code should use the ***Betty*** style. It will be checked using [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl) and [betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)
 <br /><br />
+
 
 
 # Tasks
@@ -68,30 +71,30 @@ This program will assign a random number to the variable ***n*** each time it is
         - if the number is 0: ***is zero***
         - if the number is less than 0: ***is negative***
     * followed by a new line
-```bash
-pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_negative.c -o 0-positive_or_negative
-pie@ubuntu:~/0x01$ ./0-positive_or_negative 
-221124265 is positive
-pie@ubuntu:~/0x01$ ./0-positive_or_negative 
-710196001 is positive
-pie@ubuntu:~/0x01$ ./0-positive_or_negative 
-864242509 is positive
-pie@ubuntu:~/0x01$ ./0-positive_or_negative 
-252630723 is positive
-pie@ubuntu:~/0x01$ ./0-positive_or_negative 
--481842887 is negative
-pie@ubuntu:~/0x01$ ./0-positive_or_negative 
-420208428 is positive
-pie@ubuntu:~/0x01$ ./0-positive_or_negative 
-564844171 is positive
-pie@ubuntu:~/0x01$ ./0-positive_or_negative 
-0 is zero
-pie@ubuntu:~/0x01$ 
-```
+   ```bash
+   pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_negative.c -o 0-positive_or_negative
+   pie@ubuntu:~/0x01$ ./0-positive_or_negative 
+   221124265 is positive
+   pie@ubuntu:~/0x01$ ./0-positive_or_negative 
+   710196001 is positive
+   pie@ubuntu:~/0x01$ ./0-positive_or_negative 
+   864242509 is positive
+   pie@ubuntu:~/0x01$ ./0-positive_or_negative 
+   252630723 is positive
+   pie@ubuntu:~/0x01$ ./0-positive_or_negative 
+   -481842887 is negative
+   pie@ubuntu:~/0x01$ ./0-positive_or_negative 
+   420208428 is positive
+   pie@ubuntu:~/0x01$ ./0-positive_or_negative 
+   564844171 is positive
+   pie@ubuntu:~/0x01$ ./0-positive_or_negative 
+   0 is zero
+   pie@ubuntu:~/0x01$ 
+   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
-- File: [0-positive_or_negative.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c)
+- File: [0-positive_or_negative.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c)<br />
 
 
     
@@ -108,40 +111,40 @@ This program will assign a random number to the variable n each time it is execu
       - if the last digit of ***n*** is 0: the string ***and is 0***
       - if the last digit of ***n*** is less than 6 and not 0: the string ***and is less than 6 and not 0***
    * followed by a new line
-```bash
-pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-last_digit.c -o 1-last_digit
-pie@ubuntu:~/0x01$ ./1-last_digit 
-Last digit of 1012989698 is 8 and is greater than 5
-pie@ubuntu:~/0x01$ ./1-last_digit 
-Last digit of -952044045 is -5 and is less than 6 and not 0
-pie@ubuntu:~/0x01$ ./1-last_digit 
-Last digit of 48671630 is 0 and is 0
-pie@ubuntu:~/0x01$ ./1-last_digit 
-Last digit of -213393886 is -6 and is less than 6 and not 0
-pie@ubuntu:~/0x01$ ./1-last_digit 
-Last digit of 1067152835 is 5 and is less than 6 and not 0
-pie@ubuntu:~/0x01$ ./1-last_digit 
-Last digit of 972486295 is 5 and is less than 6 and not 0
-pie@ubuntu:~/0x01$ ./1-last_digit 
-Last digit of -677094585 is -5 and is less than 6 and not 0
-pie@ubuntu:~/0x01$ ./1-last_digit 
-Last digit of 378469982 is 2 and is less than 6 and not 0
-pie@ubuntu:~/0x01$ ./1-last_digit 
-Last digit of 1044175622 is 2 and is less than 6 and not 0
-pie@ubuntu:~/0x01$ ./1-last_digit 
-Last digit of -896089062 is -2 and is less than 6 and not 0
-pie@ubuntu:~/0x01$ ./1-last_digit 
-Last digit of -385399081 is -1 and is less than 6 and not 0
-pie@ubuntu:~/0x01$ ./1-last_digit 
-Last digit of -862598239 is -9 and is less than 6 and not 0
-pie@ubuntu:~/0x01$ ./1-last_digit 
-Last digit of 632030826 is 6 and is greater than 5
-pie@ubuntu:~/0x01$
-```
+   ```bash
+   pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-last_digit.c -o 1-last_digit
+   pie@ubuntu:~/0x01$ ./1-last_digit 
+   Last digit of 1012989698 is 8 and is greater than 5
+   pie@ubuntu:~/0x01$ ./1-last_digit 
+   Last digit of -952044045 is -5 and is less than 6 and not 0
+   pie@ubuntu:~/0x01$ ./1-last_digit 
+   Last digit of 48671630 is 0 and is 0
+   pie@ubuntu:~/0x01$ ./1-last_digit 
+   Last digit of -213393886 is -6 and is less than 6 and not 0
+   pie@ubuntu:~/0x01$ ./1-last_digit 
+   Last digit of 1067152835 is 5 and is less than 6 and not 0
+   pie@ubuntu:~/0x01$ ./1-last_digit 
+   Last digit of 972486295 is 5 and is less than 6 and not 0
+   pie@ubuntu:~/0x01$ ./1-last_digit 
+   Last digit of -677094585 is -5 and is less than 6 and not 0
+   pie@ubuntu:~/0x01$ ./1-last_digit 
+   Last digit of 378469982 is 2 and is less than 6 and not 0
+   pie@ubuntu:~/0x01$ ./1-last_digit 
+   Last digit of 1044175622 is 2 and is less than 6 and not 0
+   pie@ubuntu:~/0x01$ ./1-last_digit 
+   Last digit of -896089062 is -2 and is less than 6 and not 0
+   pie@ubuntu:~/0x01$ ./1-last_digit 
+   Last digit of -385399081 is -1 and is less than 6 and not 0
+   pie@ubuntu:~/0x01$ ./1-last_digit 
+   Last digit of -862598239 is -9 and is less than 6 and not 0
+   pie@ubuntu:~/0x01$ ./1-last_digit 
+   Last digit of 632030826 is 6 and is greater than 5
+   pie@ubuntu:~/0x01$
+   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
-- File: [1-last_digit.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/1-last_digit.c)
+- File: [1-last_digit.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/1-last_digit.c)<br />
 
 
 
@@ -150,16 +153,16 @@ Write a program that prints the alphabet in lowercase, followed by a new line.
 * You can only use the ***putchar*** function (every other function (***printf***, ***puts***, etc…) is forbidden)
 * All your code should be in the ***main*** function
 * You can only use ***putchar*** twice in your code
-```bash
-pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-print_alphabet.c -o 2-print_alphabet
-pie@ubuntu:~/0x01$ ./2-print_alphabet 
-abcdefghijklmnopqrstuvwxyz
-pie@ubuntu:~/0x01$
-```
+   ```bash
+   pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-print_alphabet.c -o 2-print_alphabet
+   pie@ubuntu:~/0x01$ ./2-print_alphabet 
+   abcdefghijklmnopqrstuvwxyz
+   pie@ubuntu:~/0x01$
+   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
-- File: [2-print_alphabet.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/2-print_alphabet.c)
+- File: [2-print_alphabet.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/2-print_alphabet.c)<br />
 
 
 
@@ -168,16 +171,16 @@ Write a program that prints the alphabet in lowercase, and then in uppercase, fo
 * You can only use the ***putchar*** function (every other function (***printf***, ***puts***, etc…) is forbidden)
 * All your code should be in the ***main*** function
 * You can only use ***putchar*** three times in your code
-```bash
-pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-print_alphabets.c -o 3-print_alphabets
-pie@ubuntu:~/0x01$ ./3-print_alphabets | cat -e
-abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$
-pie@ubuntu:~/0x01$ 
-```
+   ```bash
+   pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-print_alphabets.c -o 3-print_alphabets
+   pie@ubuntu:~/0x01$ ./3-print_alphabets | cat -e
+   abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$
+   pie@ubuntu:~/0x01$ 
+   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
-- File: [3-print_alphabets.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/3-print_alphabets.c)
+- File: [3-print_alphabets.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/3-print_alphabets.c)<br />
 
 
 
@@ -187,33 +190,33 @@ Write a program that prints the alphabet in lowercase, followed by a new line.
 * You can only use the ***putchar*** function (every other function (***printf***, ***puts***, etc…) is forbidden)
 * All your code should be in the ***main*** function
 * You can only use ***putchar*** twice in your code
-```bash
-pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-print_alphabt.c -o 4-print_alphabt
-pie@ubuntu:~/0x01$ ./4-print_alphabt 
-abcdfghijklmnoprstuvwxyz
-pie@ubuntu:~/0x01$ ./4-print_alphabt | grep [eq]
-pie@ubuntu:~/0x01$ 
-```
+   ```bash
+   pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-print_alphabt.c -o 4-print_alphabt
+   pie@ubuntu:~/0x01$ ./4-print_alphabt 
+   abcdfghijklmnoprstuvwxyz
+   pie@ubuntu:~/0x01$ ./4-print_alphabt | grep [eq]
+   pie@ubuntu:~/0x01$ 
+   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
-- File: [4-print_alphabt.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/4-print_alphabt.c)
+- File: [4-print_alphabt.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/4-print_alphabt.c)<br />
 
 
 
 ## 5. Numbers
 Write a program that prints all single digit numbers of base 10 starting from ***0***, followed by a new line.
 * All your code should be in the ***main*** function
-```bash
-pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-print_numbers.c -o 5-print_numbers
-pie@ubuntu:~/0x01$ ./5-print_numbers 
-0123456789
-pie@ubuntu:~/0x01$ 
-```
+   ```bash
+   pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-print_numbers.c -o 5-print_numbers
+   pie@ubuntu:~/0x01$ ./5-print_numbers 
+   0123456789
+   pie@ubuntu:~/0x01$ 
+   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
-- File: [5-print_numbers.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/5-print_numbers.c)
+- File: [5-print_numbers.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/5-print_numbers.c)<br />
 
 
 
@@ -223,16 +226,16 @@ Write a program that prints all single digit numbers of base 10 starting from **
 * You can only use the ***putchar*** function (every other function (***printf***, ***puts***, etc…) is forbidden)
 * You can only use ***putchar*** twice in your code
 * All your code should be in the ***main*** function
-```bash
-pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 6-print_numberz.c -o 6-print_numberz
-pie@ubuntu:~/0x01$ ./6-print_numberz 
-0123456789
-pie@ubuntu:~/0x01$ 
-```
+   ```bash
+   pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 6-print_numberz.c -o 6-print_numberz
+   pie@ubuntu:~/0x01$ ./6-print_numberz 
+   0123456789
+   pie@ubuntu:~/0x01$ 
+   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
-- File: [6-print_numberz.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/6-print_numberz.c)
+- File: [6-print_numberz.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/6-print_numberz.c)<br />
 
 
 
@@ -241,16 +244,16 @@ Write a program that prints the lowercase alphabet in reverse, followed by a new
 * You can only use the ***putchar*** function (every other function (***printf***, ***puts***, etc…) is forbidden)
 * All your code should be in the ***main*** function
 * You can only use ***putchar*** twice in your code
-```bash
-pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 7-print_tebahpla.c -o 7-print_tebahpla
-pie@ubuntu:~/0x01$ ./7-print_tebahpla
-zyxwvutsrqponmlkjihgfedcba
-pie@ubuntu:~/0x01$
-```
+   ```bash
+   pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 7-print_tebahpla.c -o 7-print_tebahpla
+   pie@ubuntu:~/0x01$ ./7-print_tebahpla
+   zyxwvutsrqponmlkjihgfedcba
+   pie@ubuntu:~/0x01$
+   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
-- File: [7-print_tebahpla.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/7-print_tebahpla.c)
+- File: [7-print_tebahpla.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/7-print_tebahpla.c)<br />
 
 
 
@@ -259,16 +262,16 @@ Write a program that prints all the numbers of base 16 in lowercase, followed by
 * You can only use the ***putchar*** function (every other function (***printf***, ***puts***, etc…) is forbidden)
 * All your code should be in the ***main*** function
 * You can only use ***putchar*** three times in your code
-```bash
-pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-print_base16.c -o 8-print_base16
-pie@ubuntu:~/0x01$ ./8-print_base16
-0123456789abcdef
-pie@ubuntu:~/0x01$
-```
+   ```bash
+   pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 8-print_base16.c -o 8-print_base16
+   pie@ubuntu:~/0x01$ ./8-print_base16
+   0123456789abcdef
+   pie@ubuntu:~/0x01$
+   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
-- File: [8-print_base16.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/8-print_base16.c)
+- File: [8-print_base16.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/8-print_base16.c)<br />
 
 
 
@@ -280,16 +283,16 @@ Write a program that prints all possible combinations of single-digit numbers.
 * All your code should be in the ***main*** function
 * You can only use ***putchar*** four times maximum in your code
 * You are not allowed to use any variable of type ***char***
-```bash
-pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 9-print_comb.c -o 9-print_comb
-pie@ubuntu:~/0x01$ ./9-print_comb | cat -e
-0, 1, 2, 3, 4, 5, 6, 7, 8, 9$
-pie@ubuntu:~/0x01$ 
-```
+   ```bash
+   pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 9-print_comb.c -o 9-print_comb
+   pie@ubuntu:~/0x01$ ./9-print_comb | cat -e
+   0, 1, 2, 3, 4, 5, 6, 7, 8, 9$
+   pie@ubuntu:~/0x01$ 
+   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
-- File: [9-print_comb.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/9-print_comb.c)
+- File: [9-print_comb.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/9-print_comb.c)<br />
 
 
 
@@ -304,16 +307,16 @@ Write a program that prints all possible different combinations of two digits.
 * You can only use ***putchar*** five times maximum in your code
 * You are not allowed to use any variable of type ***char***
 * All your code should be in the ***main*** function
-```bash
-pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-print_comb3.c -o 100-print_comb3
-pie@ubuntu:~/0x01$ ./100-print_comb3
-01, 02, 03, 04, 05, 06, 07, 08, 09, 12, 13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 26, 27, 28, 29, 34, 35, 36, 37, 38, 39, 45, 46, 47, 48, 49, 56, 57, 58, 59, 67, 68, 69, 78, 79, 89
-pie@ubuntu:~/0x01$ 
-```
+   ```bash
+   pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-print_comb3.c -o 100-print_comb3
+   pie@ubuntu:~/0x01$ ./100-print_comb3
+   01, 02, 03, 04, 05, 06, 07, 08, 09, 12, 13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 26, 27, 28, 29, 34, 35, 36, 37, 38, 39, 45, 46, 47, 48, 49, 56, 57, 58, 59, 67, 68, 69, 78, 79, 89
+   pie@ubuntu:~/0x01$ 
+   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
-- File: [100-print_comb3.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/100-print_comb3.c)
+- File: [100-print_comb3.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/100-print_comb3.c)<br />
 
 
 
@@ -328,16 +331,16 @@ Write a program that prints all possible different combinations of three digits.
 * You can only use ***putchar*** six times maximum in your code
 * You are not allowed to use any variable of type ***char***
 * All your code should be in the ***main*** function
-```bash
-pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 101-print_comb4.c -o 101-print_comb4
-pie@ubuntu:~/0x01$ ./101-print_comb4
-012, 013, 014, 015, 016, 017, 018, 019, 023, 024, 025, 026, 027, 028, 029, 034, 035, 036, 037, 038, 039, 045, 046, 047, 048, 049, 056, 057, 058, 059, 067, 068, 069, 078, 079, 089, 123, 124, 125, 126, 127, 128, 129, 134, 135, 136, 137, 138, 139, 145, 146, 147, 148, 149, 156, 157, 158, 159, 167, 168, 169, 178, 179, 189, 234, 235, 236, 237, 238, 239, 245, 246, 247, 248, 249, 256, 257, 258, 259, 267, 268, 269, 278, 279, 289, 345, 346, 347, 348, 349, 356, 357, 358, 359, 367, 368, 369, 378, 379, 389, 456, 457, 458, 459, 467, 468, 469, 478, 479, 489, 567, 568, 569, 578, 579, 589, 678, 679, 689, 789
-pie@ubuntu:~/0x01$ 
-```
+   ```bash
+   pie@ubuntu:~/0x01$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 101-print_comb4.c -o 101-print_comb4
+   pie@ubuntu:~/0x01$ ./101-print_comb4
+   012, 013, 014, 015, 016, 017, 018, 019, 023, 024, 025, 026, 027, 028, 029, 034, 035, 036, 037, 038, 039, 045, 046, 047, 048, 049, 056, 057, 058, 059, 067, 068, 069, 078, 079, 089, 123, 124, 125, 126, 127, 128, 129, 134, 135, 136, 137, 138, 139, 145, 146, 147, 148, 149, 156, 157, 158, 159, 167, 168, 169, 178, 179, 189, 234, 235, 236, 237, 238, 239, 245, 246, 247, 248, 249, 256, 257, 258, 259, 267, 268, 269, 278, 279, 289, 345, 346, 347, 348, 349, 356, 357, 358, 359, 367, 368, 369, 378, 379, 389, 456, 457, 458, 459, 467, 468, 469, 478, 479, 489, 567, 568, 569, 578, 579, 589, 678, 679, 689, 789
+   pie@ubuntu:~/0x01$ 
+   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
-- File: [101-print_comb4.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/101-print_comb4.c)
+- File: [101-print_comb4.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/101-print_comb4.c)<br />
 
 
 
@@ -361,7 +364,7 @@ pie@ubuntu:~/0x01$ ./102-print_comb5
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
 - Directory: [0x01-variables_if_else_while](https://github.com/pie972/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
-- File: [102-print_comb5.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/102-print_comb5.c)
+- File: [102-print_comb5.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x01-variables_if_else_while/102-print_comb5.c)<br />
 
 
 
