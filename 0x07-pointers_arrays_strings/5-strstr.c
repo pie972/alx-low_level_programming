@@ -1,17 +1,15 @@
 #include "main.h"
-
 /**
- * _strstr - locates substring
- *
- * @haystack: value from main
- * @needle: value from main
- *
- * Return: value of haystack / 0 if null
+ * *_strstr - calls function
+ * @haystack: Main string to be scanned.
+ * @needle: Small string to be searched with-in haystack string.
+ * Description: Function that locates a substring.
+ * Return: 0
  */
-
 char *_strstr(char *haystack, char *needle)
 {
-	while (*haystack)
+	{
+		while (*haystack)
 		{
 			char *Begin = haystack;
 			char *pattern = needle;
@@ -27,4 +25,5 @@ char *_strstr(char *haystack, char *needle)
 			haystack = Begin + 1;
 		}
 		return ('\0');
+	}
 }
