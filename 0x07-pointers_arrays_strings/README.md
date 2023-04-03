@@ -44,7 +44,6 @@
 * You are not allowed to use the standard library. Any use of functions like ***printf***, ***puts***, etc… is forbidden
 * You are allowed to use [_putchar](https://github.com/pie972/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/_putchar.c)
 * The prototypes of all your functions and the prototype of the function ***_putchar*** should be included in your header file called ***main.h*** <br />
-<br /><br />
 
 ## More Info
 You do not need to learn about pointers to functions, pointers to pointers, multidimensional arrays, arrays of structures, ***malloc*** and ***free*** - yet.
