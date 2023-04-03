@@ -5,7 +5,7 @@
 
 # Learning Objectives
 --------------------------------------------------------------------------
-- [Pointers and arrays](https://github.com/pie972/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/PointersAndArrays.md)
+- [Pointers and arrays](https://github.com/pie972/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/PointersAndArrays.md)<br /><br />
 ![image](https://user-images.githubusercontent.com/78828566/229579247-ab33696b-d827-4f05-96f6-d074435a06ff.png)
 <br /><br />
 
