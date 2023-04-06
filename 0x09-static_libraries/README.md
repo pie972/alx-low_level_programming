@@ -200,8 +200,8 @@ Repo:
 Create a script called ```create_static_lib.sh``` that creates a static library called ```liball.a``` from all the ```.c``` files that are in the current directory.
   ```bash
   pie@ubuntu:~/0x09. Static Librairies$ ls *.c
-  0-isupper.c  0-strcat.c  1-isdigit.c  1-strncat.c  2-strlen.c   3-islower.c  3-strcmp.c  4-isalpha.c  5-strstr.c  9-strcpy.c  _putchar.c
-  0-memset.c   100-atoi.c  1-memcpy.c   2-strchr.c   2-strncpy.c  3-puts.c     3-strspn.c  4-strpbrk.c  6-abs.c
+  _abs.c   _isalpha.c  _islower.c  main.c     _memset.c   _puts.c    _strchr.c  _strcpy.c  _strncat.c  _strpbrk.c  _strstr.c
+  _atoi.c  _isdigit.c  _isupper.c  _memcpy.c  _putchar.c  _strcat.c  _strcmp.c  _strlen.c  _strncpy.c  _strspn.c
   pie@ubuntu:~/0x09. Static Librairies$ ./create_static_lib.sh 
   pie@ubuntu:~/0x09. Static Librairies$ ls *.a
   liball.a
