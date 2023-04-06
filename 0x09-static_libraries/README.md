@@ -204,7 +204,7 @@ Create a script called ```create_static_lib.sh``` that creates a static library 
   _atoi.c  _isdigit.c  _isupper.c  _memcpy.c  _putchar.c  _strcat.c  _strcmp.c  _strlen.c  _strncpy.c  _strspn.c
   pie@ubuntu:~/0x09. Static Librairies$ ./create_static_lib.sh 
   pie@ubuntu:~/0x09. Static Librairies$ ls *.a
-  liball.a
+  liball.a  libmy.a
   pie@ubuntu:~/0x09. Static Librairies$ ar -t liball.a
   0-isupper.o
   0-memset.o
