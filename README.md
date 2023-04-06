@@ -28,6 +28,8 @@ The low level curriculum focuses on the understanding of how programming languag
 | [0x06-pointers_arrays_strings](https://github.com/pie972/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings) | String manipulation |
 | [0x07-pointers_arrays_strings](https://github.com/pie972/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings) | Multidimensional arrays with double pointers and how to change, traverse, and search for strings |
 | [0x08-recursion](https://github.com/pie972/alx-low_level_programming/tree/master/0x08-recursion) | Recursion in C and implementing best practice by using math functions and string manipulation |
+| [0x09-static_libraries](https://github.com/pie972/alx-low_level_programming/tree/master/0x09-static_libraries) | Creation of your own Static Library and how to use it |
+| [0x0A-argc_argv](https://github.com/pie972/alx-low_level_programming/tree/master/0x0A-argc_argv) | Command line arguments and its implementation |
 
 
 
