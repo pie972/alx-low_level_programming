@@ -114,67 +114,67 @@ Don’t forget to push your ***main.h*** file to your repository. It should at l
   _strstr.o
   pie@ubuntu:~/0x09. Static Librairies$ nm libmy.a 
 
-  0-isupper.o:
-  0000000000000000 T _isupper
-
-  0-memset.o:
-  0000000000000000 T _memset
-
-  0-strcat.o:
-  0000000000000000 T _strcat
-
-  1-isdigit.o:
-  0000000000000000 T _isdigit
-
-  1-memcpy.o:
-  0000000000000000 T _memcpy
-
-  1-strncat.o:
-  0000000000000000 T _strncat
-
-  100-atoi.o:
-  0000000000000000 T _atoi
-
-  2-strchr.o:
-  0000000000000000 T _strchr
-
-  2-strlen.o:
-  0000000000000000 T _strlen
-
-  2-strncpy.o:
-  0000000000000000 T _strncpy
-
-  3-islower.o:
-  0000000000000000 T _islower
-
-  3-puts.o:
-                   U _putchar
-  0000000000000000 T _puts
-
-  3-strcmp.o:
-  0000000000000000 T _strcmp
-
-  3-strspn.o:
-  0000000000000000 T _strspn
-
-  4-isalpha.o:
-  0000000000000000 T _isalpha
-
-  4-strpbrk.o:
-  0000000000000000 T _strpbrk
-
-  5-strstr.o:
-  0000000000000000 T _strstr
-
-  6-abs.o:
-  0000000000000000 T _abs
-
-  9-strcpy.o:
-  0000000000000000 T _strcpy
-
   _putchar.o:
+                   U _GLOBAL_OFFSET_TABLE_
   0000000000000000 T _putchar
                    U write
+
+  _abs.o:
+  0000000000000000 T _abs
+
+  _atoi.o:
+  0000000000000000 T _atoi
+
+  _isalpha.o:
+  0000000000000000 T _isalpha
+
+  _isdigit.o:
+  0000000000000000 T _isdigit
+
+  _islower.o:
+  0000000000000000 T _islower
+
+  _isupper.o:
+  0000000000000000 T _isupper
+
+  _memcpy.o:
+  0000000000000000 T _memcpy
+
+  _memset.o:
+  0000000000000000 T _memset
+
+  _puts.o:
+  0000000000000000 T _puts
+
+  _strcat.o:
+  0000000000000000 T _strcat
+  
+  _strchr.o:
+  0000000000000000 T _strchr
+
+  _strcmp.o:
+  0000000000000000 T _strcmp
+
+  _strcpy.o:
+  0000000000000000 T _strcpy
+
+  _strlen.o:
+  0000000000000000 T _strlen
+
+  _strncat.o:
+  0000000000000000 T _strncat
+
+  _strncpy.o:
+  0000000000000000 T _strncpy
+
+  _strpbrk.o:
+  0000000000000000 T _strpbrk
+
+  _strspn.o:
+  0000000000000000 T _strspn
+
+  _strstr.o:
+  0000000000000000 T _strstr
   pie@ubuntu:~/0x09. Static Librairies$ cat main.c 
   #include "main.h"
 
