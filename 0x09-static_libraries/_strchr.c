@@ -1,5 +1,5 @@
 #include "main.h"
-int _strcmp(char *s1, char *s2)
+char *_strchr(char *s, char c)
 {
 	return (0);
 }
