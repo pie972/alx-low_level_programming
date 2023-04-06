@@ -206,26 +206,27 @@ Create a script called ```create_static_lib.sh``` that creates a static library 
   pie@ubuntu:~/0x09. Static Librairies$ ls *.a
   liball.a  libmy.a
   pie@ubuntu:~/0x09. Static Librairies$ ar -t liball.a
-  0-isupper.o
-  0-memset.o
-  0-strcat.o
-  100-atoi.o
-  1-isdigit.o
-  1-memcpy.o
-  1-strncat.o
-  2-strchr.o
-  2-strlen.o
-  2-strncpy.o
-  3-islower.o
-  3-puts.o
-  3-strcmp.o
-  3-strspn.o
-  4-isalpha.o
-  4-strpbrk.o
-  5-strstr.o
-  6-abs.o
-  9-strcpy.o
+  _abs.o
+  _atoi.o
+  _isalpha.o
+  _isdigit.o
+  _islower.o
+  _isupper.o
+  main.o
+  _memcpy.o
+  _memset.o
   _putchar.o
+  _puts.o
+  _strcat.o
+  _strchr.o
+  _strcmp.o
+  _strcpy.o
+  _strlen.o
+  _strncat.o
+  _strncpy.o
+  _strpbrk.o
+  _strspn.o
+  _strstr.o
   pie@ubuntu:~/0x09. Static Librairies$ 
   ```
 Repo:
