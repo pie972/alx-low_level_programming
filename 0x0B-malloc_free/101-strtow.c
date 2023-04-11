@@ -1,43 +1,72 @@
-#include "main.h"
 #include <stdlib.h>
 
 /**
-* **strtow - function that splits a string into words.
-* @str : pointer
-* Return: Char
-*/
+ * get_nwords - get the number of space separated words in `s'
+ * @s: string to search
+ *
+ * Return: number of words in `s'
+ */
+int get_nwords(char *s)
+{
+	int i = 0, nwords = 0;
 
+	while (s[i])
+	{
+		while (s[i] && s[i] == ' ')
+			++i;
+		if (s[i] == '\0')
+			break;
+		while (s[i] && s[i] != ' ')
+			++i;
+		++nwords;
+	}
+	return (nwords);
+}
+
+/**
+ * strtow - split `str' into array of words using spaces to delimit words
+ * @str: string of space-separated words
+ *
+ * Return: pointer to array of strings, or NULL on failure
+ */
 char **strtow(char *str)
 {
-	char **d;
-	int i;
-	int j = 0;
-	int con = 0;
+	int i, j, k, nwords, end, begin;
+	char **p;
 
-	if (str == NULL)
+	if (str == NULL || *str == '\0')
 		return (NULL);
-
-	for (i = 0 ; str[i] != '\0' ; i++)
-	{
-		if (str[i] != 32)
-			con++;
-	}
-
-	d = malloc(sizeof(char) * con);
-
-	if (d == NULL)
+	nwords = get_nwords(str);
+	if (nwords == 0)
 		return (NULL);
-
-	for (i = 0 ; str[i] != '\0' ; i++)
+	++nwords;
+	p = (char **) malloc(nwords * sizeof(char *));
+	if (p == NULL)
+		return (NULL);
+	i = j = 0;
+	while (str[i])
 	{
-		if (str[i] != 32)
+		while (str[i] && str[i] == ' ')
+			++i;
+		if (str[i] == '\0')
+			break;
+		begin = i;
+		while (str[i] && str[i] != ' ')
+			++i;
+		end = i;
+		p[j] = (char *) malloc((end - begin + 1) * sizeof(char));
+		if (p[j] == NULL)
 		{
-			*d[j] = str[i];
-			j++;
+			free(p[j]);
+			while (j)
+				free(p[--j]);
+			free(p);
+			return (NULL);
 		}
-		else
-		{
-		}
+		for (k = 0; k < (end - begin); ++k)
+			p[j][k] = str[begin + k];
+		p[j++][k] = '\0';
 	}
-	return (d);
+	p[j] = NULL;
+	return (p);
 }
