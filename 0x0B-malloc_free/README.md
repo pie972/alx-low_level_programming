@@ -5,7 +5,6 @@
 
 # Concepts
 --------------------------------------------------------------------------
-## Read or watch:
 [Automatic and dynamic allocation, malloc and free](https://intranet.alxswe.com/concepts/62)
 <br /><br />
 
