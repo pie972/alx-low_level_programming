@@ -30,7 +30,6 @@ The low level curriculum focuses on the understanding of how programming languag
 | [0x08-recursion](https://github.com/pie972/alx-low_level_programming/tree/master/0x08-recursion) | Recursion in C and implementing best practice by using math functions and string manipulation |
 | [0x09-static_libraries](https://github.com/pie972/alx-low_level_programming/tree/master/0x09-static_libraries) | Create your own Static Library and its usage |
 | [0x0A-argc_argv](https://github.com/pie972/alx-low_level_programming/tree/master/0x0A-argc_argv) | Command line arguments and its implementation |
-
 | [0x0B-malloc_free](https://github.com/pie972/alx-low_level_programming/tree/master/0x0B-malloc_free) | Intro to Memory Management and the use of Valgrind, & the use of malloc function to concatonate strings |
 | [0x0C-more_malloc_free](https://github.com/pie972/alx-low_level_programming/tree/master/0x0C-more_malloc_free) | Management of memory & Implementation of Valgrind |
 | [0x0D-preprocessor](https://github.com/pie972/alx-low_level_programming/tree/master/0x0D-preprocessor) | The use of Macros for readable constants & implementation of headers |
