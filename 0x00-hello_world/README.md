@@ -1,5 +1,5 @@
 # Low-level programming & Algorithm - Hatching out
-# GCC, PRINTF, PUTS
+# C - Hello, World
 
 
 
