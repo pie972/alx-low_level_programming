@@ -1,5 +1,5 @@
 # Low-level programming & Algorithm - Hatching out
-# Functions and nested loops PART 2
+# C - More functions, more nested loops 
 
 
 
