@@ -1,5 +1,5 @@
 # Low-level programming & Algorithm - Hatching out
-# argc, argv
+# C - argc, argv
 
 
 
