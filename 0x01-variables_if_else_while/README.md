@@ -1,5 +1,5 @@
 # Low-level programming & Algorithm - Hatching out
-# C CODE - ASCII, IF/ELSE, FOR LOOPS, & MANIPULATING NUMBERS
+# C - Variables, if, else, while
 
 
 
