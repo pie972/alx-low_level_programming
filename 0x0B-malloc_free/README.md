@@ -1,5 +1,5 @@
 # Low-level programming & Algorithm - Hatching out
-# Malloc Free
+# C - malloc, free
 
 
 
