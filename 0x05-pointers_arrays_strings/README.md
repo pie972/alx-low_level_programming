@@ -1,14 +1,12 @@
 # Low-level programming & Algorithm - Hatching out
-# Pointers, Arrays, and Strings PART 1
+#  C - Pointers, arrays and strings 
 
-
+![image](https://user-images.githubusercontent.com/78828566/228076229-bd01c331-a1aa-4286-943a-1c5bd93a83bc.png)
 
 # Concepts
 --------------------------------------------------------------------------
 [Pointers and arrays](https://github.com/pie972/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/PointersAndArrays.md) <br />
 [Data Structures](https://github.com/pie972/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/DataStructures.md)
-<br /><br />
-![image](https://user-images.githubusercontent.com/78828566/228076229-bd01c331-a1aa-4286-943a-1c5bd93a83bc.png)
 <br /><br />
 
 
