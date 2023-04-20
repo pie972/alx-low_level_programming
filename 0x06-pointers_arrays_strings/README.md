@@ -1,5 +1,5 @@
 # Low-level programming & Algorithm - Hatching out
-# Pointers, Arrays, and Strings PART 2
+# C - More pointers, arrays and strings 
 
 
 
