@@ -109,8 +109,8 @@ pie@ubuntu:~/0x0e. Function pointers$
 ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0F-function_pointers](https://github.com/pie972/alx-low_level_programming/master/0x0F-function_pointers)
-- File: [0-print_name.c](https://github.com/pie972/alx-low_level_programming/master/0x0F-function_pointers/0-print_name.c)<br />
+- Directory: [0x0F-function_pointers](https://github.com/pie972/alx-low_level_programming/blob/master/0x0F-function_pointers)
+- File: [0-print_name.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0F-function_pointers/0-print_name.c)<br />
 
 
 
@@ -175,8 +175,8 @@ pie@ubuntu:~//0x0e. Function pointers$
 ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0F-function_pointers](https://github.com/pie972/alx-low_level_programming/master/0x0F-function_pointers)
-- File: [1-array_iterator.c](https://github.com/pie972/alx-low_level_programming/master/0x0F-function_pointers/1-array_iterator.c)<br />
+- Directory: [0x0F-function_pointers](https://github.com/pie972/alx-low_level_programming/blob/master/0x0F-function_pointers)
+- File: [1-array_iterator.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0F-function_pointers/1-array_iterator.c)<br />
 
 
 
@@ -254,8 +254,8 @@ pie@ubuntu:~/0x0e. Function pointers$
 ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0F-function_pointers](https://github.com/pie972/alx-low_level_programming/master/0x0F-function_pointers)
-- File: [2-int_index.c](https://github.com/pie972/alx-low_level_programming/master/0x0F-function_pointers/2-int_index.c)<br />
+- Directory: [0x0F-function_pointers](https://github.com/pie972/alx-low_level_programming/blob/master/0x0F-function_pointers)
+- File: [2-int_index.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0F-function_pointers/2-int_index.c)<br />
 
 
 
@@ -357,8 +357,8 @@ pie@ubuntu:~/0x0e. Function pointers$
 ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0F-function_pointers](https://github.com/pie972/alx-low_level_programming/master/0x0F-function_pointers)
-- File: [3-main.c](https://github.com/pie972/alx-low_level_programming/master/0x0F-function_pointers/3-main.c),[3-op_functions.c](https://github.com/pie972/alx-low_level_programming/master/0x0F-function_pointers/3-op_functions.c),[3-get_op_func.c](https://github.com/pie972/alx-low_level_programming/master/0x0F-function_pointers/3-get_op_func.c),[3-calc.h](https://github.com/pie972/alx-low_level_programming/master/0x0F-function_pointers/3-calc.h)<br />
+- Directory: [0x0F-function_pointers](https://github.com/pie972/alx-low_level_programming/blob/master/0x0F-function_pointers)
+- File: [3-main.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0F-function_pointers/3-main.c),[3-op_functions.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0F-function_pointers/3-op_functions.c),[3-get_op_func.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0F-function_pointers/3-get_op_func.c),[3-calc.h](https://github.com/pie972/alx-low_level_programming/blob/master/0x0F-function_pointers/3-calc.h)<br />
 
 
 
@@ -407,5 +407,5 @@ pie@ubuntu:~/0x0e. Function pointers$
 
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0F-function_pointers](https://github.com/pie972/alx-low_level_programming/master/0x0F-function_pointers)
-- File: [100-main_opcodes.c](https://github.com/pie972/alx-low_level_programming/master/0x0F-function_pointers/100-main_opcodes.c)<br />
+- Directory: [0x0F-function_pointers](https://github.com/pie972/alx-low_level_programming/blob/master/0x0F-function_pointers)
+- File: [100-main_opcodes.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0F-function_pointers/100-main_opcodes.c)<br />
