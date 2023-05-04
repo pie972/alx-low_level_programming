@@ -1,4 +1,4 @@
-# Low-level programming & Algorithm - Hatching out
+# Low-level programming & Algorithm - Data structures and Algorithms
 # C - Bit manipulation
 
 
