@@ -11,7 +11,7 @@
 [Documentation: structures](https://github.com/holbertonschool/Betty/wiki/Documentation:-Data-structures) <br />
 [0x0d. Typedef and structures.pdf](https://github.com/pie972/alx-low_level_programming/blob/master/0x0E-structures_typedef/0x0d.%20Typedef%20and%20structures.pdf) <br />
 [typedef](https://publications.gbdirect.co.uk//c_book/chapter8/typedef.html) <br />
-- ***Programming in C*** by Stephen Kochan - Chapter 8, Working with Structures p163-189 <br />
+***Programming in C*** by Stephen Kochan - Chapter 8, Working with Structures p163-189 <br />
 [The Lost Art of C Structure Packing](http://www.catb.org/esr/structure-packing/) (Advanced - not mandatory) <br />
 <br /><br />
 
