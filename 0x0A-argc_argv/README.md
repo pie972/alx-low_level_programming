@@ -58,8 +58,8 @@ Write a program that prints its name, followed by a new line.
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0A-argc_argv](https://github.com/pie972/alx-low_level_programming/edit/master/0x0A-argc_argv)
-- File: [0-whatsmyname.c](https://github.com/pie972/alx-low_level_programming/edit/master/0x0A-argc_argv/0-whatsmyname.c)<br />
+- Directory: [0x0A-argc_argv](https://github.com/pie972/alx-low_level_programming/blob/master/0x0A-argc_argv)
+- File: [0-whatsmyname.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0A-argc_argv/0-whatsmyname.c)<br />
 
 
 
@@ -80,8 +80,8 @@ Write a program that prints the number of arguments passed into it.
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0A-argc_argv](https://github.com/pie972/alx-low_level_programming/edit/master/0x0A-argc_argv)
-- File: [1-args.c](https://github.com/pie972/alx-low_level_programming/edit/master/0x0A-argc_argv/1-args.c)<br />
+- Directory: [0x0A-argc_argv](https://github.com/pie972/alx-low_level_programming/blob/master/0x0A-argc_argv)
+- File: [1-args.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0A-argc_argv/1-args.c)<br />
 
 
 
@@ -106,8 +106,8 @@ Write a program that prints all arguments it receives.
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0A-argc_argv](https://github.com/pie972/alx-low_level_programming/edit/master/0x0A-argc_argv)
-- File: [2-args.c](https://github.com/pie972/alx-low_level_programming/edit/master/0x0A-argc_argv/2-args.c)<br />
+- Directory: [0x0A-argc_argv](https://github.com/pie972/alx-low_level_programming/blob/master/0x0A-argc_argv)
+- File: [2-args.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0A-argc_argv/2-args.c)<br />
 
 
 
@@ -132,8 +132,8 @@ Write a program that multiplies two numbers.
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0A-argc_argv](https://github.com/pie972/alx-low_level_programming/edit/master/0x0A-argc_argv)
-- File: [3-mul.c](https://github.com/pie972/alx-low_level_programming/edit/master/0x0A-argc_argv/3-mul.c)<br />
+- Directory: [0x0A-argc_argv](https://github.com/pie972/alx-low_level_programming/blob/master/0x0A-argc_argv)
+- File: [3-mul.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0A-argc_argv/3-mul.c)<br />
 
 
 
@@ -157,8 +157,8 @@ Write a program that adds positive numbers.
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0A-argc_argv](https://github.com/pie972/alx-low_level_programming/edit/master/0x0A-argc_argv)
-- File: [4-add.c](https://github.com/pie972/alx-low_level_programming/edit/master/0x0A-argc_argv/4-add.c)<br />
+- Directory: [0x0A-argc_argv](https://github.com/pie972/alx-low_level_programming/blob/master/0x0A-argc_argv)
+- File: [4-add.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0A-argc_argv/4-add.c)<br />
 
 
 
@@ -186,46 +186,5 @@ Write a program that prints the minimum number of coins to make change for an am
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0A-argc_argv](https://github.com/pie972/alx-low_level_programming/edit/master/0x0A-argc_argv)
-- File: [100-change.c](https://github.com/pie972/alx-low_level_programming/edit/master/0x0A-argc_argv/100-change.c)<br />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Directory: [0x0A-argc_argv](https://github.com/pie972/alx-low_level_programming/blob/master/0x0A-argc_argv)
+- File: [100-change.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0A-argc_argv/100-change.c)<br />
