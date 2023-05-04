@@ -78,8 +78,8 @@ Define a new type ***struct dog*** with the following elements:
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0E-structures_typedef](https://github.com/pie972/alx-low_level_programming/edit/master/0x0E-structures_typedef)
-- File: [dog.h](https://github.com/pie972/alx-low_level_programming/edit/master/0x0E-structures_typedef/dog.h)<br />
+- Directory: [0x0E-structures_typedef](https://github.com/pie972/alx-low_level_programming/blob/master/0x0E-structures_typedef)
+- File: [dog.h](https://github.com/pie972/alx-low_level_programming/blob/master/0x0E-structures_typedef/dog.h)<br />
 
 
 
@@ -111,8 +111,8 @@ Write a function that initialize a variable of type ```struct dog```
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0E-structures_typedef](https://github.com/pie972/alx-low_level_programming/edit/master/0x0E-structures_typedef)
-- File: [1-init_dog.c](https://github.com/pie972/alx-low_level_programming/edit/master/0x0E-structures_typedef/1-init_dog.c)<br />
+- Directory: [0x0E-structures_typedef](https://github.com/pie972/alx-low_level_programming/blob/master/0x0E-structures_typedef)
+- File: [1-init_dog.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0E-structures_typedef/1-init_dog.c)<br />
 
 
 
@@ -154,8 +154,8 @@ Write a function that prints a ```struct dog```
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0E-structures_typedef](https://github.com/pie972/alx-low_level_programming/edit/master/0x0E-structures_typedef)
-- File: [2-print_dog.c](https://github.com/pie972/alx-low_level_programming/edit/master/0x0E-structures_typedef/2-print_dog.c)<br />
+- Directory: [0x0E-structures_typedef](https://github.com/pie972/alx-low_level_programming/blob/master/0x0E-structures_typedef)
+- File: [2-print_dog.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0E-structures_typedef/2-print_dog.c)<br />
 
 
 
@@ -190,8 +190,8 @@ Define a new type ```dog_t``` as a new name for the type ```struct dog```.
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0E-structures_typedef](https://github.com/pie972/alx-low_level_programming/edit/master/0x0E-structures_typedef)
-- File: [dog.h](https://github.com/pie972/alx-low_level_programming/edit/master/0x0E-structures_typedef/dog.h)<br />
+- Directory: [0x0E-structures_typedef](https://github.com/pie972/alx-low_level_programming/blob/master/0x0E-structures_typedef)
+- File: [dog.h](https://github.com/pie972/alx-low_level_programming/blob/master/0x0E-structures_typedef/dog.h)<br />
 
 
 
@@ -227,8 +227,8 @@ Write a function that creates a new dog.
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0E-structures_typedef](https://github.com/pie972/alx-low_level_programming/edit/master/0x0E-structures_typedef)
-- File: [4-new_dog.c](https://github.com/pie972/alx-low_level_programming/edit/master/0x0E-structures_typedef/4-new_dog.c)<br />
+- Directory: [0x0E-structures_typedef](https://github.com/pie972/alx-low_level_programming/blob/master/0x0E-structures_typedef)
+- File: [4-new_dog.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0E-structures_typedef/4-new_dog.c)<br />
 
 
 
@@ -277,5 +277,5 @@ Write a function that frees dogs.
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0E-structures_typedef](https://github.com/pie972/alx-low_level_programming/edit/master/0x0E-structures_typedef)
-- File: [5-free_dog.c](https://github.com/pie972/alx-low_level_programming/edit/master/0x0E-structures_typedef/5-free_dog.c)<br />
+- Directory: [0x0E-structures_typedef](https://github.com/pie972/alx-low_level_programming/blob/master/0x0E-structures_typedef)
+- File: [5-free_dog.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0E-structures_typedef/5-free_dog.c)<br />
