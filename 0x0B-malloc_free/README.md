@@ -129,8 +129,8 @@ Write a function that creates an array of chars, and initializes it with a speci
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0B-malloc_free](https://github.com/pie972/alx-low_level_programming/edit/master/0x0B-malloc_free)
-- File: [0-create_array.c](https://github.com/pie972/alx-low_level_programming/edit/master/0x0B-malloc_free/0-create_array.c)<br />
+- Directory: [0x0B-malloc_free](https://github.com/pie972/alx-low_level_programming/blob/master/0x0B-malloc_free)
+- File: [0-create_array.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0B-malloc_free/0-create_array.c)<br />
 
 
 
@@ -173,8 +173,8 @@ FYI: The standard library provides a similar function: ***strdup***. Run ***man 
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0B-malloc_free](https://github.com/pie972/alx-low_level_programming/edit/master/0x0B-malloc_free)
-- File: [1-strdup.c](https://github.com/pie972/alx-low_level_programming/edit/master/0x0B-malloc_free/1-strdup.c)<br />
+- Directory: [0x0B-malloc_free](https://github.com/pie972/alx-low_level_programming/blob/master/0x0B-malloc_free)
+- File: [1-strdup.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0B-malloc_free/1-strdup.c)<br />
 
 
 
@@ -216,8 +216,8 @@ Write a function that concatenates two strings.
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0B-malloc_free](https://github.com/pie972/alx-low_level_programming/edit/master/0x0B-malloc_free)
-- File: [2-str_concat.c](https://github.com/pie972/alx-low_level_programming/edit/master/0x0B-malloc_free/2-str_concat.c)<br />
+- Directory: [0x0B-malloc_free](https://github.com/pie972/alx-low_level_programming/blob/master/0x0B-malloc_free)
+- File: [2-str_concat.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0B-malloc_free/2-str_concat.c)<br />
 
 
 
@@ -296,8 +296,8 @@ Write a function that returns a pointer to a 2 dimensional array of integers.
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0B-malloc_free](https://github.com/pie972/alx-low_level_programming/edit/master/0x0B-malloc_free)
-- File: [3-alloc_grid.c](https://github.com/pie972/alx-low_level_programming/edit/master/0x0B-malloc_free/3-alloc_grid.c)<br />
+- Directory: [0x0B-malloc_free](https://github.com/pie972/alx-low_level_programming/blob/master/0x0B-malloc_free)
+- File: [3-alloc_grid.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0B-malloc_free/3-alloc_grid.c)<br />
 
 
 
@@ -389,8 +389,8 @@ Write a function that frees a 2 dimensional grid previously created by your ***a
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0B-malloc_free](https://github.com/pie972/alx-low_level_programming/edit/master/0x0B-malloc_free)
-- File: [4-free_grid.c](https://github.com/pie972/alx-low_level_programming/edit/master/0x0B-malloc_free/4-free_grid.c)<br />
+- Directory: [0x0B-malloc_free](https://github.com/pie972/alx-low_level_programming/blob/master/0x0B-malloc_free)
+- File: [4-free_grid.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0B-malloc_free/4-free_grid.c)<br />
 
 
 
@@ -438,8 +438,8 @@ Write a function that concatenates all the arguments of your program.
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0B-malloc_free](https://github.com/pie972/alx-low_level_programming/edit/master/0x0B-malloc_free)
-- File: [100-argstostr.c](https://github.com/pie972/alx-low_level_programming/edit/master/0x0B-malloc_free/100-argstostr.c)<br />
+- Directory: [0x0B-malloc_free](https://github.com/pie972/alx-low_level_programming/blob/master/0x0B-malloc_free)
+- File: [100-argstostr.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0B-malloc_free/100-argstostr.c)<br />
 
 
 
@@ -501,21 +501,5 @@ Write a function that splits a string into words.
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0B-malloc_free](https://github.com/pie972/alx-low_level_programming/edit/master/0x0B-malloc_free)
-- File: [101-strtow.c](https://github.com/pie972/alx-low_level_programming/edit/master/0x0B-malloc_free/101-strtow.c)<br />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Directory: [0x0B-malloc_free](https://github.com/pie972/alx-low_level_programming/blob/master/0x0B-malloc_free)
+- File: [101-strtow.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0B-malloc_free/101-strtow.c)<br />
