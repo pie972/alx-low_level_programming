@@ -1,5 +1,5 @@
 # Low-level programming & Algorithm - Hatching out
-# C - printf
+# C - Variadic functions
 
 
 
