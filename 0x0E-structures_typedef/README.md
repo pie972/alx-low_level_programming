@@ -38,9 +38,6 @@
 * The only C standard library functions allowed are ***printf***, ***malloc***, ***free***, and ***exit***.
 * You are allowed to use [_putchar](https://github.com/pie972/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/_putchar.c)
 * All your header files should be include guarded
-
-## More Info
-You do not have to learn about ```calloc``` and ```realloc```.
 <br /><br />
 
 
