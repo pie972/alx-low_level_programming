@@ -35,6 +35,10 @@ The low level curriculum focuses on the understanding of how programming languag
 | [0x0D-preprocessor](https://github.com/pie972/alx-low_level_programming/tree/master/0x0D-preprocessor)    | The use of Macros for readable constants & implementation of headers |
 | [0x0E-structures_typedef](https://github.com/pie972/alx-low_level_programming/tree/master/0x0E-structures_typedef)    | The use of structs in C with their functionality |
 | [0x0F-function_pointers](https://github.com/pie972/alx-low_level_programming/tree/master/0x0F-function_pointers)    | Function Pointers & its use in Dynamic Programming |
+| [0x10-variadic_functions](https://github.com/pie972/alx-low_level_programming/tree/master/0x10-variadic_functions)    | Functions that can pass a variable amount of arguments |
+| [0x12-singly_linked_lists](https://github.com/pie972/alx-low_level_programming/tree/master/0x12-singly_linked_lists)    | Introduction to data structures and singly linked lists & Implementation in string manipulation |
+| [0x13-more_singly_linked_lists](https://github.com/pie972/alx-low_level_programming/tree/master/0x13-more_singly_linked_lists)    | Nodes: How to Retrieve, Insert, and Delete |
+| [0x14-bit_manipulation](https://github.com/pie972/alx-low_level_programming/tree/master/0x14-bit_manipulation)    | Bitwise Operators & Its implementation in the bitwise values of a number |
 
 
 
