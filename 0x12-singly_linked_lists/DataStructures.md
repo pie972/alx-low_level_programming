@@ -7,7 +7,7 @@ Data structures, as the term implies, are a way of structuring data in order to 
 - Basics (Read deep into either for explanations of common data structures):<br />
 [Tutorials Point](https://www.tutorialspoint.com/data_structures_algorithms/data_structures_basics.htm)<br />
 [Geeks for Geeks](https://www.geeksforgeeks.org/data-structures/)<br />
-<br /><br />
+
 
 - How to Select the Appropriate Data Structure:<br />
 [Career Drill](https://www.careerdrill.com/blog/coding-interview/choosing-the-right-data-structure-to-solve-problems/)<br />
