@@ -76,8 +76,8 @@ Create a header file that defines a macro named ```SIZE``` as an abbreviation fo
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0D-preprocessor](https://github.com/pie972/alx-low_level_programming/edit/master/0x0D-preprocessor)
-- File: [0-object_like_macro.h](https://github.com/pie972/alx-low_level_programming/edit/master/0x0D-preprocessor/0-object_like_macro.h)<br />
+- Directory: [0x0D-preprocessor](https://github.com/pie972/alx-low_level_programming/blob/master/0x0D-preprocessor)
+- File: [0-object_like_macro.h](https://github.com/pie972/alx-low_level_programming/blob/master/0x0D-preprocessor/0-object_like_macro.h)<br />
 
 
 
@@ -111,8 +111,8 @@ Create a header file that defines a macro named ```PI``` as an abbreviation for 
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0D-preprocessor](https://github.com/pie972/alx-low_level_programming/edit/master/0x0D-preprocessor)
-- File: [1-pi.h](https://github.com/pie972/alx-low_level_programming/edit/master/0x0D-preprocessor/1-pi.h)<br />
+- Directory: [0x0D-preprocessor](https://github.com/pie972/alx-low_level_programming/blob/master/0x0D-preprocessor)
+- File: [1-pi.h](https://github.com/pie972/alx-low_level_programming/blob/master/0x0D-preprocessor/1-pi.h)<br />
 
 
 
@@ -131,8 +131,8 @@ Write a program that prints the name of the file it was compiled from, followed 
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0D-preprocessor](https://github.com/pie972/alx-low_level_programming/edit/master/0x0D-preprocessor)
-- File: [2-main.c](https://github.com/pie972/alx-low_level_programming/edit/master/0x0D-preprocessor/2-main.c)<br />
+- Directory: [0x0D-preprocessor](https://github.com/pie972/alx-low_level_programming/blob/master/0x0D-preprocessor)
+- File: [2-main.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0D-preprocessor/2-main.c)<br />
 
 
 
@@ -166,8 +166,8 @@ Write a function-like macro ```ABS(x)``` that computes the absolute value of a n
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0D-preprocessor](https://github.com/pie972/alx-low_level_programming/edit/master/0x0D-preprocessor)
-- File: [3-function_like_macro.h](https://github.com/pie972/alx-low_level_programming/edit/master/0x0D-preprocessor/3-function_like_macro.h)<br />
+- Directory: [0x0D-preprocessor](https://github.com/pie972/alx-low_level_programming/blob/master/0x0D-preprocessor)
+- File: [3-function_like_macro.h](https://github.com/pie972/alx-low_level_programming/blob/master/0x0D-preprocessor/3-function_like_macro.h)<br />
 
 
 
@@ -199,5 +199,5 @@ pie@ubuntu:~/0x0c. macro, structures$
 ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0D-preprocessor](https://github.com/pie972/alx-low_level_programming/edit/master/0x0D-preprocessor)
-- File: [4-sum.h](https://github.com/pie972/alx-low_level_programming/edit/master/0x0D-preprocessor/4-sum.h)<br />
+- Directory: [0x0D-preprocessor](https://github.com/pie972/alx-low_level_programming/blob/master/0x0D-preprocessor)
+- File: [4-sum.h](https://github.com/pie972/alx-low_level_programming/blob/master/0x0D-preprocessor/4-sum.h)<br />
