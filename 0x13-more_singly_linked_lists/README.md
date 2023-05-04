@@ -38,7 +38,7 @@
 * Your code should use the ***Betty*** style. It will be checked using [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl) and [betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)
 * You are not allowed to use global variables
 * No more than 5 functions per file
-* The only C standard library functions allowed are malloc and free. Any use of functions like ***printf***, ***puts***, ***calloc***, ***realloc*** etc… is forbidden
+* The only C standard library functions allowed are ***malloc***, ***free***, ***exit***. Any use of functions like ***printf***, ***puts***, ***calloc***, ***realloc*** etc… is forbidden
 * You are allowed to use [_putchar](https://github.com/pie972/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/_putchar.c)
 * The prototypes of all your functions and the prototype of the function ***_putchar*** should be included in your header file called ***main.h***
 
