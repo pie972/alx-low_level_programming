@@ -1,5 +1,5 @@
 # Low-level programming & Algorithm - Hatching out
-# C - Variadic functions
+# C - Singly linked lists
 
 
 
@@ -56,8 +56,8 @@ You do not have to learn about ```calloc``` and ```realloc```.
 ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0D-preprocessor](https://github.com/pie972/alx-low_level_programming/edit/master/0x0D-preprocessor)
-- File: [](https://github.com/pie972/alx-low_level_programming/edit/master/0x0D-preprocessor/)<br />
+- Directory: [0x12-singly_linked_lists](https://github.com/pie972/alx-low_level_programming/blob/master/0x12-singly_linked_lists)
+- File: [](https://github.com/pie972/alx-low_level_programming/blob/master/0x12-singly_linked_lists/)<br />
 
 
 
