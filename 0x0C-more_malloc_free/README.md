@@ -99,8 +99,8 @@ Write a function that allocates memory using ***malloc***.
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0C-more_malloc_free](https://github.com/pie972/alx-low_level_programming/edit/master/0x0C-more_malloc_free)
-- File: [0-malloc_checked.c](https://github.com/pie972/alx-low_level_programming/master/0x0C-more_malloc_free/0-malloc_checked.c)<br />
+- Directory: [0x0C-more_malloc_free](https://github.com/pie972/alx-low_level_programming/blob/master/0x0C-more_malloc_free)
+- File: [0-malloc_checked.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0C-more_malloc_free/0-malloc_checked.c)<br />
 
 
 
@@ -138,8 +138,8 @@ Write a function that concatenates two strings.
  ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0C-more_malloc_free](https://github.com/pie972/alx-low_level_programming/master/0x0C-more_malloc_free)
-- File: [1-string_nconcat.c](https://github.com/pie972/alx-low_level_programming/master/0x0C-more_malloc_free/1-string_nconcat.c)<br />
+- Directory: [0x0C-more_malloc_free](https://github.com/pie972/alx-low_level_programming/blob/master/0x0C-more_malloc_free)
+- File: [1-string_nconcat.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0C-more_malloc_free/1-string_nconcat.c)<br />
 
 
 
@@ -219,8 +219,8 @@ FYI: The standard library provides a different function: ***calloc***. Run ***ma
  ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0C-more_malloc_free](https://github.com/pie972/alx-low_level_programming/master/0x0C-more_malloc_free)
-- File: [2-calloc.c](https://github.com/pie972/alx-low_level_programming/master/0x0C-more_malloc_free/2-calloc.c)<br />
+- Directory: [0x0C-more_malloc_free](https://github.com/pie972/alx-low_level_programming/blob/master/0x0C-more_malloc_free)
+- File: [2-calloc.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0C-more_malloc_free/2-calloc.c)<br />
 
 
 
@@ -288,8 +288,8 @@ Write a function that creates an array of integers.
  ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0C-more_malloc_free](https://github.com/pie972/alx-low_level_programming/master/0x0C-more_malloc_free)
-- File: [3-array_range.c](https://github.com/pie972/alx-low_level_programming/master/0x0C-more_malloc_free/3-array_range.c)<br />
+- Directory: [0x0C-more_malloc_free](https://github.com/pie972/alx-low_level_programming/blob/master/0x0C-more_malloc_free)
+- File: [3-array_range.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0C-more_malloc_free/3-array_range.c)<br />
 
 
 
@@ -378,8 +378,8 @@ FYI: The standard library provides a different function: ***realloc***. Run ***m
  ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0C-more_malloc_free](https://github.com/pie972/alx-low_level_programming/master/0x0C-more_malloc_free)
-- File: [100-realloc.c](https://github.com/pie972/alx-low_level_programming/master/0x0C-more_malloc_free/100-realloc.c)<br />
+- Directory: [0x0C-more_malloc_free](https://github.com/pie972/alx-low_level_programming/blob/master/0x0C-more_malloc_free)
+- File: [100-realloc.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0C-more_malloc_free/100-realloc.c)<br />
 
 
 
@@ -402,30 +402,5 @@ You can use ***bc*** (***man bc***) to check your results.
  ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x0C-more_malloc_free](https://github.com/pie972/alx-low_level_programming/master/0x0C-more_malloc_free)
-- File: [101-mul.c](https://github.com/pie972/alx-low_level_programming/master/0x0C-more_malloc_free/101-mul.c)<br />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Directory: [0x0C-more_malloc_free](https://github.com/pie972/alx-low_level_programming/blob/master/0x0C-more_malloc_free)
+- File: [101-mul.c](https://github.com/pie972/alx-low_level_programming/blob/master/0x0C-more_malloc_free/101-mul.c)<br />
