@@ -191,8 +191,8 @@ Don’t forget to push your ***main.h*** file to your repository. It should at l
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x09-static_libraries](https://github.com/pie972/alx-low_level_programming/edit/master/0x09-static_libraries)
-- File: [libmy.a](https://github.com/pie972/alx-low_level_programming/edit/master/0x09-static_libraries/libmy.a) ,[main.h](https://github.com/pie972/alx-low_level_programming/edit/master/0x09-static_libraries/main.h) <br />
+- Directory: [0x09-static_libraries](https://github.com/pie972/alx-low_level_programming/blob/master/0x09-static_libraries)
+- File: [libmy.a](https://github.com/pie972/alx-low_level_programming/blob/master/0x09-static_libraries/libmy.a) ,[main.h](https://github.com/pie972/alx-low_level_programming/blob/master/0x09-static_libraries/main.h) <br />
 
 
 
@@ -231,21 +231,5 @@ Create a script called ```create_static_lib.sh``` that creates a static library 
   ```
 Repo:
 - GitHub repository: [alx-low_level_programming](https://github.com/pie972/alx-low_level_programming)
-- Directory: [0x09-static_libraries](https://github.com/pie972/alx-low_level_programming/edit/master/0x09-static_libraries)
-- File: [create_static_lib.sh](https://github.com/pie972/alx-low_level_programming/edit/master/0x09-static_libraries/create_static_lib.sh)<br />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Directory: [0x09-static_libraries](https://github.com/pie972/alx-low_level_programming/blob/master/0x09-static_libraries)
+- File: [create_static_lib.sh](https://github.com/pie972/alx-low_level_programming/blob/master/0x09-static_libraries/create_static_lib.sh)<br />
